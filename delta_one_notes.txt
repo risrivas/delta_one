@@ -7,6 +7,8 @@ Index Options
 - came in 1981
 - underlying is index or index future
 
+---------------------------
+
 ## Indices
 - Stock indices - index made of all stocks
 - Calculating a stock index: weighted by price or capital
@@ -16,3 +18,43 @@ Index Options
 - Float = no of shares outstanding (which can be traded by public)
 - Total market value of index = sum (capitalization of each stock in index)
 - Final index value = Total market value of index / Divisor
+
+- example:
+Stock A: price = 30, float = 175M, cap = price*float => 5250M
+Stock B: price = 90, float = 50M, cap = price*float => 4500M
+Stock C: price = 50, float = 100M, cap = price*float => 5000M
+
+Total cap = 5250M + 4500M + 5000M => 14,750M
+Divisor = 147.5M (random selection for the first time)
+Index Value = Total Cap / Divisor = 14,750M / 147.5M => 100.0
+
+---------
+
+# Divisor
+- Divisor is a random number that is initially used to reduce the index value to a workable number
+- After initial divisor selection, subsequent changes in index value may lead to adjust divisor too
+- No change in divisor for stock splits as the cap for that stock will still be same
+
+- If a company issues more stocks in a secondary offering (float increases), but the price is still same => need to adjust divisor
+- example:
+Stock A: price = 40, float = 175M, cap = 7000M
+Stock B: price = 80, float = 50M, cap = 4000M
+Stock C: price = 60, float = 100M, cap = 6000M
+
+Total cap = 17000M
+Divisor = 147.5M
+Index Value = 115.25
+
+Now suppose that stock A issues a 2M share secondary that evening, new float = 177M
+Stock A: price = 40, float = 177M, new cap = 7080M
+
+As nothing has changed in stock A price, need to adjust divisor to keep the same index value of 115.25
+
+New divisor = New Total Cap / Old Index Value = 17080M / 115.25 => 148_194_117.6
+
+
+
+
+
+
+
