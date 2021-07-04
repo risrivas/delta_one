@@ -1,0 +1,18 @@
+
+##################################################
+# Ch 29: Introduction to Index Options and Futures
+##################################################
+
+Index Options
+- came in 1981
+- underlying is index or index future
+
+## Indices
+- Stock indices - index made of all stocks
+- Calculating a stock index: weighted by price or capital
+
+## Capitalization-weighted indices
+- Capitalization of stock = float * spot price
+- Float = no of shares outstanding (which can be traded by public)
+- Total market value of index = sum (capitalization of each stock in index)
+- Final index value = Total market value of index / Divisor
