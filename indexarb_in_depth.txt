@@ -1,0 +1,69 @@
+
+## What is Hedge ?
+Hedge is an investment to reduce the risk of adverse price movement in an asset.
+Normally, a hedge consists of taking an offsetting position in a related security, such as a futures contract.
+
+- example
+CSI500 index price = 16K
+CSI500 ETF price = 16K
+CSI500 index future price = 16K
+
+Buy: ETF, Sell: Futures as hedge
+
+Case 1: CSI500 index price goes up by 1% (16160)
+- earn 160 points from ETF => 16160 - 16000
+- lose 160 points from futures
+- Net earnings = 0
+
+Case 2: CSI500 index price goes down by 1% (15840)
+- lose 160 points from ETF => 15840 - 16000
+- earn 160 points from futures
+- Net earnings = 0
+
+
+--------------
+
+## What is Arbitrage ? (Special case of hedge)
+Arbitrage is simultaneously buy and sell of an asset to profit from difference in the price.
+It is a trade that profits by exploiting the price differences of related instruments on different markets or in different forms.
+
+- example
+CSI500 index price = 16K
+CSI500 ETF price = 16K
+CSI500 index future price = 16200 --
+
+Buy: ETF, Sell: Futures as hedge
+
+Case 1: CSI500 index price goes up by 1% (16160)
+- earn 160 points from ETF => 16160 - 16000
+- earn 40 points from futures => 16200 - 16160
+- Net earnings = 200
+
+Case 2: CSI500 index price goes down by 1% (15840)
+- lose 160 points from ETF => 15840 - 16000
+- earn 360 points from futures => 16200 - 15840
+- Net earnings = 200
+
+
+--------------
+
+## What is IndexArb ?
+
+- IndexArb automates Futures Index Arbitrage and ETF market making
+- Actively quote Futures / ETF and arbitrage the spread opportunites
+
+- Quote component
+Place simultaneous passive buy/sell limit orders for ETF/Futures
+
+- Hedge component
+When the Quote order execution amount exceeds a delta trigger range, a hedge order (either a cash basket or Futures) is fired
+
+- Supported Quote/Hedge Pairs
+ETF vs Futures
+Futures vs Cash Basket
+ETF vs Cash Basket
+Futures vs Futures
+
+
+
+
