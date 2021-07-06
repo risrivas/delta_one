@@ -53,7 +53,7 @@ Case 2: CSI500 index price goes down by 1% (15840)
 - Actively quote Futures / ETF and arbitrage the spread opportunites
 
 - Quote component
-Place simultaneous passive buy/sell limit orders for ETF/Futures
+Place simultaneous passive buy/sell limit orders for ETF/Futures and maintain the bis/ask size
 
 - Hedge component
 When the Quote order execution amount exceeds a delta trigger range, a hedge order (either a cash basket or Futures) is fired
@@ -63,6 +63,47 @@ ETF vs Futures
 Futures vs Cash Basket
 ETF vs Cash Basket
 Futures vs Futures
+
+# Quote Component example
+
+CSI500 ETF as quote
+CSI500 index future as hedge
+
+
+Steps to quote:
+===================
+
+1. Calculate theoretical price of quote and hedge symbols, from base symbol which is CSI500 index
+TheoPrice_ETF = NetAssetValue * ( 1 + (CashRatio * LeverageRatio) * (Index_Last / Index_PrevClose - 1) )
+TheoPrice_Future = (Index_Last + HedgeCarryCost) * ETF_Multiplier
+
+2. Calculate theoretical spread
+Theo_Spread = TheoPrice_ETF - TheoPrice_Future
+
+3. Calculate ETF theoretical market price (bid/ask) of quote symbol which is CSI500 ETF
+TheoMarketPrice_ETF_Ask = Theo_Spread + (Futures_Ask * ETF_Multiplier)
+TheoMarketPrice_ETF_Bid = Theo_Spread + (Futures_Bid * ETF_Multiplier)
+
+4. Trader inputs ETF Bid or Ask Spread => BidSpreadIndexPoints or AskSpreadIndexPoints
+
+5. Calculate final ETF quote price (bid/ask)
+QuotePrice_ETF_Ask = TheoMarketPrice_ETF_Ask + AskSpreadIndexPoints
+QuotePrice_ETF_Bid = TheoMarketPrice_ETF_Bid - BidSpreadIndexPoints
+
+===================
+
+## example - so should understand theoretical price vs actual market price
+using ETF "Ask"
+
+- Step 3: ETF theoretical market price ask = 120
+- Futures theoretical market price ask = 100
+- Step 2: Theo_Spread = TheoPrice_ETF - TheoPrice_Future => 20
+- Step 4: ETF Ask spread input by trader = AskSpreadIndexPoints => 10
+- Step 5: QuotePrice_ETF_Ask = TheoMarketPrice_ETF_Ask + AskSpreadIndexPoints => 120 + 10 => 130
+
+However, ETF actual market Price ask = 135
+This is arbitrage opportunity => Join ETF best Ask to short
+because we think ETF is overpriced = 135 - 120 => 15 arbitrage profit
 
 
 
