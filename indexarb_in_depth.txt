@@ -30,7 +30,7 @@ It is a trade that profits by exploiting the price differences of related instru
 - example
 CSI500 index price = 16K
 CSI500 ETF price = 16K
-CSI500 index future price = 16200 --
+CSI500 index future price = 16200
 
 Buy: ETF, Sell: Futures as hedge
 
@@ -53,7 +53,7 @@ Case 2: CSI500 index price goes down by 1% (15840)
 - Actively quote Futures / ETF and arbitrage the spread opportunites
 
 - Quote component
-Place simultaneous passive buy/sell limit orders for ETF/Futures and maintain the bis/ask size
+Place simultaneous passive buy/sell limit orders for ETF/Futures and maintain the bid/ask size
 
 - Hedge component
 When the Quote order execution amount exceeds a delta trigger range, a hedge order (either a cash basket or Futures) is fired
@@ -90,20 +90,88 @@ TheoMarketPrice_ETF_Bid = Theo_Spread + (Futures_Bid * ETF_Multiplier)
 QuotePrice_ETF_Ask = TheoMarketPrice_ETF_Ask + AskSpreadIndexPoints
 QuotePrice_ETF_Bid = TheoMarketPrice_ETF_Bid - BidSpreadIndexPoints
 
+- basic idea is to calculate final ETF quote price (step 5) and compare with actual ETF market "best" bid / ask price
+
+- Join "ETF Best Ask" if QuotePrice_ETF_Ask (step 5) <= "ETF Best Ask"
+because we assume that ETF is over-priced in market (short)
+
+- Join "ETF Best Bid" if QuotePrice_ETF_Bid (step 5) >= "ETF Best Ask"
+because we assume that ETF is under-priced in market (long)
+
 ===================
 
 ## example - so should understand theoretical price vs actual market price
+
 using ETF "Ask"
 
-- Step 3: ETF theoretical market price ask = 120
-- Futures theoretical market price ask = 100
-- Step 2: Theo_Spread = TheoPrice_ETF - TheoPrice_Future => 20
+Assume
+# Theoretical spread calculation:
+- Step 3: ETF theoretical market price ask, TheoMarketPrice_ETF_Ask = 120
+- Futures theoretical market price ask, Futures_Ask = 100
+- Theoretical market price spread = TheoMarketPrice_ETF_Ask - Futures_Ask => 20
+
 - Step 4: ETF Ask spread input by trader = AskSpreadIndexPoints => 10
+this is market making spread which trader has been doing
+
 - Step 5: QuotePrice_ETF_Ask = TheoMarketPrice_ETF_Ask + AskSpreadIndexPoints => 120 + 10 => 130
 
+# Market price available:
 However, ETF actual market Price ask = 135
-This is arbitrage opportunity => Join ETF best Ask to short
+This is arbitrage opportunity => Join "ETF Best Ask" to short
 because we think ETF is overpriced = 135 - 120 => 15 arbitrage profit
+
+======================
+
+## How to Join?
+
+# Leap-Frog Pegging
+- The quote component continually adjusts buy/sell orders on the exchange
+It means that whenever a fill happens, need to send additional orders to "adjust" the Bid/Ask Size
+- This adjustment is done by a method Leap-Frog Pegging:
+orders on the front level are moved to the back level, and vice versa
+advantage is the middle levels are not touched, preserving the exchange queue position
+
+- example:
+Order Book
+
+Price|Qty
+104.0
+103.0|10, 45
+101.0|90
+100.0|20, 60, 200
+97.0|30, 70
+96.0|80, 200, 100
+
+Suppose if Quote Price change from 96.0 to 97.0 => we need to adjust the display size
+Cancel all the 3 orders at 96.0 and send those orders with same qty at best bid price - 104.0 price (103.0 + (97.0-96.0))
+
+Suppose if Quote Price change from 97.0 to 96.0 => we need to adjust the display size
+Cancel all the orders at best bid price (104.0) and send those orders with same qty at 96.0 price (97.0 - (97.0-96.0))
+
+
+##################
+# Hedge Component
+##################
+- if executed position of Quote is >= MaxDelta (pre-configured to a value) => Hedge orders are triggered to fire
+- quote is prevented from reloading until Hedge is sufficiently filled
+
+# Strategies:
+- market making mode
+Net the delta of the quote asset => meaning that buying and selling qty offset each other
+- arbitrage mode
+do not Net the delta => meaning both buy and sell fill qty will sum up
+
+# Steps to Hedge:
+1. Calculate Exec Delta (Quote/Hedge orders that has been filled on the exchange)
+sum(quote fills + hedge fills)
+
+ExecDelta = ( (QuoteBuyExecQty - QuoteSellExecQty) * TheoPrice * LeverageRatio * FuturesContractMultiplier )
+
+
+
+
+
+
 
 
 
