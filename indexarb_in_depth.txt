@@ -161,15 +161,66 @@ Net the delta of the quote asset => meaning that buying and selling qty offset e
 - arbitrage mode
 do not Net the delta => meaning both buy and sell fill qty will sum up
 
-# Steps to Hedge:
+# Steps to Hedge (arbitrage mode only):
 1. Calculate Exec Delta (Quote/Hedge orders that has been filled on the exchange)
 sum(quote fills + hedge fills)
 
-ExecDelta = ( (QuoteBuyExecQty - QuoteSellExecQty) * TheoPrice * LeverageRatio * FuturesContractMultiplier )
+QuoteFills = (QuoteBuyExecQty - QuoteSellExecQty) * TheoPrice * LeverageRatio * FuturesContractMultiplier
+HedgeFills = sum( (HedgeBuyExecQty - HedgeSellExecQty) * TheoPrice ) * FuturesContractMultiplier
+ExecDelta = QuoteFills + HedgeFills
 
+2. Calculate Order Delta (ExecDelta + unexecuted hedge orders)
 
+QuoteSellExecDelta = -QuoteSellExecQty * TheoPrice * LeverageRatio * FuturesContractMultiplier
+HedgeBuyOrders = HedgeBuyTotalQty * TheoPrice * FuturesContractMultiplier
+=> OrderDeltaSB = QuoteSellExecDelta + HedgeBuyOrders
 
+QuoteBuyExecDelta = QuoteBuyExecQty * TheoPrice * LeverageRatio * FuturesContractMultiplier
+HedgeSellOrders = HedgeSellTotalQty * TheoPrice * FuturesContractMultiplier
+=> OrderDeltaBS = QuoteBuyExecDelta + HedgeSellOrders
 
+3. When to Hedge?
+- if OrderDeltaBS > MaxDelta,  send sell Hedge orders until OrderDeltaBS <= MaxDelta
+- if OrderDeltaSB < -MaxDelta, send buy Hedge orders until OrderDeltaSB >= -MaxDelta
+
+- Quote cannot reload on the bid side if ExecDelta > MaxDelta
+- Quote cannot reload on the offer side if ExecDelta < -MaxDelta
+
+4. How to Hedge?
+- Fire and Forget
+When an order is placed by Hedge Component, it trades independently of other logic
+
+- Full order qty
+Hedge Component posts full order quantity in one tranche at the calculated price level
+
+- Order Book Ratio
+If ratio of level 1 quote (bid/ask for buys and ask/bid for sells) exceeds the user specified value,
+the strategy will cross the spread with all qty
+
+- Timer
+If bid-ask spread is greater than 1 tick, every X seconds,
+the child order price should be amended to be 1 tick more aggressive in price (but never cross the spread)
+
+- Bid chasing
+Hedge component always chases the best bid/offer
+
+====================
+
+## Hedge Component - example
+
+- Stock X has
+best offer = 302
+best bid = 300
+tick size = 1
+
+- Strategy
+Timer = 30 seconds
+OrderBookRatio = 2
+
+- Place a buy hedge order for 1000 shares
+- Hedge component first places the entire qty at best bid, 300
+- After 30 seconds, check bid-ask spread = 2 which is greater than tick size of 1
+=> the hedge component amends it's child order to 301
 
 
 
