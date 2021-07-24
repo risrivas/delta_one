@@ -98,6 +98,56 @@ because we assume that ETF is over-priced in market (short)
 - Join "ETF Best Bid" if QuotePrice_ETF_Bid (step 5) >= "ETF Best Ask"
 because we assume that ETF is under-priced in market (long)
 
+--------------------------
+
+# Terms used above
+
+## Net Asset Value of ETF
+The NAV is determined by adding up the value of all assets in the fund, including assets and cash, subtracting any liabilities,
+and then dividing that value by the number of outstanding shares in the ETF.
+
+- The ETF market price is the price at which shares in the ETF can be bought or sold on the exchanges "during trading hours".
+- The net asset value (NAV) of an ETF represents the value of each share’s portion of the fund’s underlying assets and cash at the "end of the trading day".
+
+## Cash Ratio
+Cash Ratio = (Current Assets - Inventory) / Current Liabilities
+The cash ratio is a measurement of a company's liquidity, specifically the ratio of a company's total cash and cash equivalents to its current liabilities.
+
+## LeverageRatio
+Leverage Ratio = Total Debt / Total Equity
+- A leveraged exchange-traded fund (ETF) uses financial derivatives and debt to amplify the returns of an underlying index.
+- While a traditional ETF typically tracks the securities in its underlying index on a one-to-one basis, a leveraged ETF may aim for a 2:1 or 3:1 ratio.
+- Leverage is a double-edged sword meaning it can lead to significant gains, but can also lead to significant losses.
+example:
+ETFs that track the S&P 500 Index will contain the 500 stocks in the S&P. Typically, if the S&P moves 1%, the ETF will also move by 1%.
+A leveraged ETF that tracks the S&P might use financial products and debt that magnify each 1% gain in the S&P to a 2% or 3% gain.
+
+## ETF Multiplier
+- Same as Leverage Ratio
+- For example - if ETF multipler is 3, it means:
+Leveraged 3X ETFs are funds that track a wide variety of asset classes, such as stocks, bonds and commodity futures,
+ and apply leverage in order to gain three times the daily or monthly return of the respective underlying index.
+
+## Futures contract multiplier
+The contract multiplier determines the dollar value of each point of price movement.
+The E-mini Dow multiplier is 5, meaning each Dow point is worth $5 per contract.
+The E-mini Nasdaq multiplier is 20, worth $20 per point, while the E-mini SP-500 carries a 50 multiplier that's worth $50 per point.
+So, to summarize, if index is at say 1500 points and futures contract multiplier is 200, then price of futures contract is 1500 * 200 = 30_00_00
+
+## Carry Cost
+Expenses for futures contract to hold or carry it - like storage cost (for commodities) .
+
+F = Se ^ ((r + s - c) x t)
+Where:
+
+F = the future price of the commodity
+S = the spot price of the commodity
+e = the base of natural logs, approximated as 2.718
+r = the risk-free interest rate
+s = the storage cost, expressed as a percentage of the spot price
+c = the convenience yield
+t = time to delivery of the contract, expressed as a fraction of one year
+
 ===================
 
 ## example - so should understand theoretical price vs actual market price
@@ -221,6 +271,24 @@ OrderBookRatio = 2
 - Hedge component first places the entire qty at best bid, 300
 - After 30 seconds, check bid-ask spread = 2 which is greater than tick size of 1
 => the hedge component amends it's child order to 301
+- if there are more than twice as many shares on the best bid as on the best offer,
+then amend the order limit price to 302 hitting all the shares on the offer and becoming the new best bid
+
+-------
+
+# Algo
+
+Start -> Post at Best Bid
+         -> Post at Best Bid + 1 ticks after 30 seconds (amend price only)
+            -> Post at Best Bid + 2 ticks after 30 seconds (amend price only)
+...
+...
+                -> Post at Best Ask - 1 ticks after 30 seconds (amend price only)
+                     -> Check OrderBookRatio - if there are more than OrderBookRatio (say, twice) as many shares on the best bid as on the best ask
+                         -> Amend Price to Best Ask and hit all the orders at Best Ask => expected to get all the hedge buy orders filled immediately
+                         -> New Best Bid is Best Ask on which orders are hit
+
+Whenever the best bid changes, amend the price to Best Bid and start the timer again
 
 
 
