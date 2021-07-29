@@ -1,0 +1,36 @@
+################
+# Introduction
+################
+- IndexArb strategy automates:
+ETF/Futures Market making
+Futures Index arbitrage
+
+- Strategy is designed to trade pair of assets:
+ETF vs Futures
+Futures vs Cash Basket
+ETF vs Cash Basket
+Futures vs Futures
+
+- 3 types of sub-strategies are supported:
+1) ETF/Futures Market making
+- Quoting => Send buy and sell orders for ETF / Futures on multiple levels based on the theoretical price of the product
+- Reload => Maintain display size by sending additional orders as earlier orders are executed
+- Hedging => Send Futures / Cash Basket / ETF as a hedge once a certain execution threshold is reached (MaxDelta)
+
+2) Opening Auction Arbitrage
+- Send buy and sell asset pair (Cash Basket and Futures OR ETF and Futures) on opening auction if there is profit opportunity
+according to the estimated opening spread between theoretical price and market price of the Futures
+- note that this strategy can be used in regular trading hours and not just auction periods
+
+
+3) Cash Basket Market making (Cash First)
+- Quoting => Send cash basket orders based on the spread between theoretical price and market price of the Futures
+- Reload => Maintain display size by sending additional orders as earlier orders are executed
+- Hedging => Send Futures as a hedge once a certain execution threshold is reached (MaxDelta)
+
+
+###########################
+# Workflow/System Overview
+###########################
+
+
