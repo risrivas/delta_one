@@ -32,5 +32,106 @@ according to the estimated opening spread between theoretical price and market p
 ###########################
 # Workflow/System Overview
 ###########################
+- System Diagram should be like this:
+
+1) UI - where user can control Parent order and strategy
+Incoming:
+- Static data
+- Index Data from Index Pricer
+- Realtime Market Data
+- Cash Basket from BCS
+
+Outgoing: Parent Order
+
+2) Algo Engine - where UI will publish the parent order to
+Gets Index calculations - Executes the strategy
+Send Child Orders to Exchange connectivity layer or broker which will send to market / exchange
+Executions received should be sent to booking systems in realtime
+
+3) Exchange connectivity layer or broker
+Receives child orders from Algo Engine
+massages it according to broker or exchange FIX/native protocol\
+sends to market
+
+4) Booking system
+receives real-time executions from algo engine
+sends to risk system
+
+5) Risk system for risk management
+
+-------------
+
+## Parent Orders
+- Trading is initiated by sending a 'Parent Order' from UI to Algo Engine
+- Strategy only trade up to the quantity limit of ETF/Futures/Cash Basket from UI
+- Strategy checks the balance of quote and hedge product value and does not accept if the total value of the hedge
+product is larger than the equivalent value of quantity limit
+- Strategy will stop once it consumes all slices of the basket
+
+
+## Parent Order Control
+- User can set-up configuration for 'Parent Order' (Template) via the UI
+- Template consists of a Quote (ETF/Future) and a Hedge (Future or Cash Basket)
+- Parent Orders can be controlled using a series of commands from the UI (as listed below)
+
+# Command (UI -> Algo Engine)
+1. Start
+- Send message to start trading
+- Strategy references previous executions (if any) to track trading delta and remaining inventory
+
+2. Kill
+- Send message to stop trading
+- All child orders are cancelled and no further orders are sent
+- Parent order state and parameters (except trading delta and remaining inventory) are reset
+
+3. Pause
+- Send message to suspend trading
+- This cancels and stops sending quote orders but hedge activities continue
+- Opening Auction strategy does not support Pause
+
+4. Resume
+- Sends message to restart quote activity from suspended state
+
+5. Update Parameter
+- The strategy adjusts the number, size and price of child orders according to the updated parameters
+- Strategy will ack the request without waiting for the result of the action of child orders
+- Strategy supports the following parameters updates
+  - Pricing parameters: CarryCost, HedgeCarryCost, Ask/Bid Spread, Ask/Bid OutSpread, NAV, CashRatio, ETFMultiplier
+  - ETF/Futures Market Making parameters: Ask/Bid DisplayLevel, Ask/Bid DisplaySize, Max Long/Short OrderQuantity, Inventory, ReloadPercent
+  - Opening Auction Parameters: Ask/Bid DisplaySize, Max Long/Short OrderQuantity
+  - Cash First parameters: ReloadPercent, Max Long/Short OrderQuantity
+  - Delta parameters: MaxDelta, StopReloadDelta
+  - Hedge parameters: HedgeDisplaySize
+  - Timing parameters: StartTime, EndTime, QuoteEndTime
+- Stale parameter check to ensure strategy cannot start if product parameters have not been updated that day
+
+6. Cancel Stock
+- Send message to cancel single stock orders in basket
+- The strategy will cancel all the child orders of the symbol for the parent order
+- This command is supported by ETF/Futures Market Making with cash hedge or cash first strategies only
+
+7. Force Reload
+- Sends a message to reset the delta information and enable the quote orders to reload again
+- Only supported by the ETF/Futures market-making strategy with hedge disabled
+
+8. Enable/Commit Manual Hedge Input
+- To send/update the information of the manual traded position
+- During the manual hedge input, the strategy cancels the hedge orders and does not send new ones
+
+
+##############
+# UI Overview
+##############
+- UI should be the source of all the tradable assets (ETF, Futures, Cash basket) adn act as EMS
+- UI creates and manages the Parent Orders to Algo Engine
+
+- List of grids / tables / windows tab available:
+1) Template Selector: List of all the available templates for parent orders
+2) Order Book: Realtime display of Level 2 market data / market depth for constituent assets
+3) Price Monitor: Latest price updates for security
+4) Trade Summary: List of all trades - Quote/Hedge grouped
+5) Algo Parameters: Algo parameters list
+6) Log Window: Audit trail of strategy parameter amendments
+
 
 
