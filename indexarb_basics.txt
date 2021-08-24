@@ -52,9 +52,50 @@ As nothing has changed in stock A price, need to adjust divisor to keep the same
 
 New divisor = New Total Cap / Old Index Value = 17080M / 115.25 => 148_194_117.6
 
+- there are organisations for calculating and adjusting the divisor
 
+---------
 
+# Statistics
+- percentage that a stock comprises of the index = stock's cap / total index cap
+- how many shares of each stock in the index = stock's float / divisor
 
+example:
+Stock A: price = 40, float = 177M, cap = 7080M
+Stock B: price = 80, float = 50M, cap = 4000M
+Stock C: price = 60, float = 100M, cap = 6000M
 
+Total cap = 17080M
+Divisor = 147.5M
+Index Value = 115.80
 
+%age of Stock A = 7080M / 17080M = 41.5%
+%age of Stock B = 4000M / 17080M = 23.4%
+%age of Stock C = 6000M / 17080M = 35.1%
 
+No of shares for Stock A = 177M / 147.5M = 1.20
+No of shares for Stock B = 50M / 147.5M = 0.34
+No of shares for Stock C = 100M / 147.5M = 0.68
+
+- thus if the Stock A goes up by 1 point, ie price goes up from 40 to 41
+  => value of the index will go up by 1.20, ie from 115.80 to 117.0
+
+-----
+
+## Price-weighted indices
+- equal number of shares of each stock
+- add the prices of all the stocks -> divide the sum by the divisor to produce the index value
+example:
+Stock A: price = 30
+Stock B: price = 90
+Stock C: price = 50
+
+Sum = 170
+Divisor = 1.65843
+Index value = Sum / Divisor = 102.51
+
+- number of shares = stock's float / divisor => 1 / divisor
+stock's float is always 1
+
+- number of shares for each stock = 1 / 1.21943 (divisor) = 0.82 shares
+- means that upward movement for any stock by 1 point will cause index to get up by 0.82
