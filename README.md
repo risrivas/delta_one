@@ -5,6 +5,9 @@
 * Index Arbitrage In Depth
 * Index Arbitrage In Banks
 
+### Investment
+* Investment Basics
+
 ### Crypto Currency
 * Basics
 * Advanced
