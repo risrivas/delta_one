@@ -12,7 +12,7 @@
 - Underlying Assets (buy/sell the products directly)
 - Mutual Funds - managed by a mutual fund manager
 - Index Funds - tracking an index
-- ETFs
+- ETFs - managed by ETF companies
 
 
 #######################
@@ -73,7 +73,7 @@ USA and Canada has around 2% of inflation rate per year
 ##############
 # Compounding
 ##############
-- reinvest the interest to the principal
+- reinvest the interest to the principal in the next period
 
 - example:
 Principal = 10K
@@ -96,7 +96,103 @@ Compound interest profit after 10 years = P * (1 + R) ^ T
 
 ------------------------------------
 
-### Stocks
+##########
+# Stocks
+##########
+
+# Private Corporations
+- company whose shares are not traded publicly
+- owned by a small group of people - owners, employees, friends, family and qualified investors
+
+# Stock or Shares
+- investment that represents part ownership in a corporation
+- when we buy shares in a company, we own proportionally part of that company
+
+
+# example of starting a private corporation
+- Suppose a young computer student geek named Rob has learnt how to make drones.
+- He makes some drones in his home / garage and sells it to few friends.
+- He makes more and more drones and sells to more people.
+- Doing so for a year, he made 100K dollars in a year and has become popular.
+- Now he can start his own company with 100% ownserhip - Super Drones.
+- Benefits: will save tax, anyone wants to sue for bad drone - can only sue the company (not Rob individually) which will lead to some fines etc.
+- Many more people want to buy drones from Super Drones and now it becomes unmanageable for Rob to handle it alone.
+- He decides to open a big store with few employees like salesman, security, accountants etc.
+- He needs 2M dollars to open such a big store.
+- He hires a professional (accountant or lawyer) to evaluate number of shares to issue and price for each share
+- Suppose the total number of shares comes out to be 100K and the price of each share is 2M/50K = 40 dollars
+- Then he can sell 50% ownership (50K shares) of Super Drones to = family, friends, qualified investors.
+- Other 50K shares are held by Rob.
+- He gets 2M dollars and opens the store and gets employees as planned.
+- The company makes profit of 1M dollars in 1 year.
+- Rob gets 500K dollars of the profit.
+
+=> going public
+
+- Rob and his private investors (family, friends, qualified investors) now want to spread the business to other cities across the nation.
+- Total budget to open stores and hire employees is 200M
+- Rob needs to do IPO (initial public offering) and go public
+- A public company needs to get audited every 3 months - to ensure that whatever financials / incomes they are reporting is correct
+and their share prices truly reflect their incomes
+- He needs to contact an underwriting firm (usually an investment bank)
+- Underwriting firm will evaluate the financial statements and everything else (analysis) and come up with % breakdown of shares
+- They suggest few things after all the analysis:
+  - 70% of the shares to public, 15% to Rob and remaining 15% to other private investors (initial shareholders when company was private)
+  - To raise 2M, they also mention stock splits and raise from 100K to 10M shares, 7M to public, remaining 1.5M each to Rob and private shareholders
+  - Cost of each share = 200M/7M = 28.57 dollars
+
+this is "primary" market =>
+- Underwriting firms have good contacts with big firms, institutional investors and they convince them to buy 7M shares
+
+this is "secondary" market =>
+- After a specific date, they will sell the shares in the secondary market where all public can trade
+- Underwriting firm will find the exchange where company will be listed and also assign a unique "ticker" to identify the stock (like AAPL is ticker for Apple)
+
+
+##########
+# Markets
+##########
+
+## Auction Market
+- market in which the buyers compete on buying prices and sellers compete on selling prices simultaneously
+- there is an array of bids and offers and only the best bid and offer match and trade
+- the seller does not decides the price beforehand -
+  this is different than a stock market where there are predefined prices of stock by sellers and buyers can just buy at that price
+
+## Stock Market
+- secondary market in which shares of publicly traded companies are issues and traded
+- just like a grocery store or a fish market
+
+## Stock Exchange
+- where market participants can trade stocks with one another
+- US stock exchanges: NYSE, NASDAQ, AMEX
+
+# example of checking exchange for an Apple stock
+- Go to https://www.investing.com/ and search for Apple
+- it will show exchange as Stock - NASDAQ
+
+
+##########
+# Brokers
+##########
+- firm that facilitates in the execution of a financial transaction for a fee
+- Buttonwood Agreement - https://en.wikipedia.org/wiki/Buttonwood_Agreement
+
+# example of buying a GE stock (retro way)
+- I am in Montreal and I want to buy 20 GE stocks at 80 dollars each
+- I call my broker in Montreal on phone
+- Montreal broker calls his Floor trader (broker) sitting in NYSE
+- Floor trader on NYSE start screaming on the trading pit - 20 GE stocks to buy at 80 dollars
+
+modern way =>
+- open a trading account with broker, ex: Interactive Brokers, Alpaca etc
+- buy and sell using computer via api provided by broker
+- orders go to the order book for GE in bid and offer
+- broker provide the trading screen where the order status is displayed
+
+
+
+
 
 
 
