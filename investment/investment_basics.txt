@@ -138,8 +138,9 @@ and their share prices truly reflect their incomes
 - Underwriting firm will evaluate the financial statements and everything else (analysis) and come up with % breakdown of shares
 - They suggest few things after all the analysis:
   - 70% of the shares to public, 15% to Rob and remaining 15% to other private investors (initial shareholders when company was private)
-  - To raise 2M, they also mention stock splits and raise from 100K to 10M shares, 7M to public, remaining 1.5M each to Rob and private shareholders
+  - To raise 200M, they also mention stock splits and raise from 100K to 10M shares, 7M to public, remaining 1.5M each to Rob and private shareholders
   - Cost of each share = 200M/7M = 28.57 dollars
+  - Float (shares available to trade for public) = 7M
 
 this is "primary" market =>
 - Underwriting firms have good contacts with big firms, institutional investors and they convince them to buy 7M shares
@@ -160,7 +161,7 @@ this is "secondary" market =>
   this is different than a stock market where there are predefined prices of stock by sellers and buyers can just buy at that price
 
 ## Stock Market
-- secondary market in which shares of publicly traded companies are issues and traded
+- secondary market in which shares of publicly traded companies are issued and traded
 - just like a grocery store or a fish market
 
 ## Stock Exchange
@@ -187,8 +188,46 @@ this is "secondary" market =>
 modern way =>
 - open a trading account with broker, ex: Interactive Brokers, Alpaca etc
 - buy and sell using computer via api provided by broker
-- orders go to the order book for GE in bid and offer
+- orders go to the exchange order book for GE in bid and offer
 - broker provide the trading screen where the order status is displayed
+
+
+###############################
+# Orders, Prices and Quotation
+###############################
+- starting with same example
+Rob - Super Drones
+Ticker: SDR
+IPO: 28.57$
+Shares outstanding (float): 7M
+Exchange: NASDAQ
+
+- Say SDR is starting to trade on 5/Sep
+- Exchange time: 9:30am to 4:00pm
+- a firm who bought 1K stocks at IPO, wants to sell the order 5/Sep at market open at a defined price 32.0$
+- Order types: Limit order (price defined), Market order (best price in market)
+- Firm will send the order to broker which will send to the exchange
+- Few basic order details:
+Order Type: Limit
+Price: 32
+Qty: 1000
+Ticker: SDR
+Side: Sell
+
+- Level 1 market data provided by broker
+Bid, Ask, Last Price (price + size)
+- Level 2 market data
+level 1 + whole order book where the complete bids / offers are listed for SDR
+
+- Stock price will go up or down based on supply / demand
+More buyers -> price will go up
+More sellers -> price will go down
+
+- When ask for quotation for SDR to a broker, broker will reply with the L1 market data which is also the quotation
+
+- Real example of Facebook IPO:
+https://en.wikipedia.org/wiki/Initial_public_offering_of_Facebook
+
 
 
 
