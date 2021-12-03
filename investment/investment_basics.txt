@@ -229,6 +229,120 @@ More sellers -> price will go down
 https://en.wikipedia.org/wiki/Initial_public_offering_of_Facebook
 
 
+#########
+# Charts
+#########
+- most popular
+https://www.tradingview.com/
+
+- click on Chart - select stock / period - default is candlestick charts
+- can chose the Watchlist in the right
+
+
+#########
+# Volume
+#########
+- when trade happens, time of sale is recorded
+
+Price | Volume | Time
+----------------------
+31.0  | 100    | 9:30
+38.0  | 500    | 10:00
+32.0  | 300    | 10:01
+
+
+############
+# Resources
+############
+- generic for all countries
+https://www.investing.com/
+https://finance.yahoo.com/
+
+- good for US
+https://finviz.com/
+
+
+#############
+# Market Cap
+#############
+- total market value of a company = Shares Outstanding * Stock Price
+example:
+ - go to Yahoo Finance and search for Netflix (NFLX)
+ - click on Statistics
+ - search for "Shares Outstanding" = 442.95M
+ - Price = 617.77
+ - Market cap = 442.95M * 617.77 = 273,641,221,500 dollars
+
+- typical range from 300M to 200B dollars
+
+
+###########
+# Screener
+###########
+- process of selecting stocks, funds, etc to trade or invest
+- for US stocks - go to Finviz and click on Screener - https://finviz.com/screener.ashx
+- for general - go to TradingView site and click on Screener - chose Stock / FX / Crypto screeners
+- can apply Filters in the right - based on Market Cap, country, types and many more...
+
+
+#######################
+# Financial Statements
+#######################
+- Public companies are obliged to release financial statements on a quarterly basis.
+- These statements are:
+  - Balance Sheet
+  - Income Statement
+  - Cash Flow Statement
+
+
+## Balance Sheet
+- reports on the company's assets, liability and owner's equity
+- also has a section for management discussions and analysis
+
+Assets = Liabilities + Equity
+Equity = Assets - Liabilities
+
+- Equity is the money from all the shareholders who have bought the stock
+- Liabilities is the loan or the debt which company owns
+example:
+Suppose I own a house of 10M, but I took a loan from the bank initially of 6M
+Then my net worth (or Equity) = 10M - 6M = 4M
+Which means that if I sell the house now, I have net worth or profit of 4M
+
+- for US stocks: https://www.sec.gov/edgar/searchedgar/companysearch.html
+
+
+## Income Statement
+- reports on the company's financial performance and earnings are disclosed
+- this form will show the company's revenues, expenses and net profits
+- also called earning statement
+- normally the statement will have Total Revenues (sales, interest revenues, etc) and Total Expenses (salaries, rent, tax, ad costs, insurance, etc)
+- Net Profit = Total Revenues - Total Expenses
+
+
+## Cash Flow Statement
+- reports on the company's cash flow - cash entering the company and cash exiting the company
+- Cash flow is divided into 3 parts:
+  - Core Operations
+  - Investing
+  - Financing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
