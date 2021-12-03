@@ -328,6 +328,47 @@ Which means that if I sell the house now, I have net worth or profit of 4M
   - Financing
 
 
+###########
+# Earnings
+###########
+- Earnings (E) = net profit made by a company in a period
+- Earnings Per Share (EPS) = earnings made in a period divided by the number of shares outstanding
+- Price to Earnings (PE) = ratio of the company's share price divided by the company's Earnings Per Share
+
+- EPS tells how much each share's allocation of the total earnings.
+- PE tells how much you are paying for each dollar of earnings the company makes. It's used to see if a company is overvalued or undervalued.
+
+example:
+- E for company 1 = 1M, shares outstanding = 200K, current share price = 500$
+- E for company 2 = 2M, shares outstanding = 1M, current share price = 40$
+- EPS for company 1 = 1M / 200K = 5 dollars
+- EPS for company 2 = 2M / 1M = 2 dollars
+- PE for company 1 = 500 / 5 = 100
+- PE for company 2 = 40 / 2 = 20
+
+- so its better to buy the shares of company 2 as PE is lower
+- however, there are 2 approaches of investments here based on PE ratio:
+
+## Growth companies
+- companies that are not generating as much income relative to their price (high PE), but are expected to have high earnings growth in the future
+- these companies usually have a high PE ratio, high PB ratio (price-to-book) and do not give out dividends
+- example - TESLA
+
+## Value companies
+- companies that are mature and generating good income relative to their price
+- not expected to grow their income much in the future
+- have a low OE ratio, low PB ratio and give out dividends
+- example - WALMART
+
+- Warren Buffet has been known investing in only Value companies
+
+
+
+
+
+
+
+
 
 
 
