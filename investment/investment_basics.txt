@@ -1,37 +1,31 @@
-######################
-# Investment Products
-######################
+##########################
+# Summary of all contents
+##########################
+
+## Investment Products
 - Stocks
 - Bonds
 - Commodities (like Gold)
 
-
-######################
-# Investment Vehicles
-######################
+## Investment Vehicles
 - Underlying Assets (buy/sell the products directly)
 - Mutual Funds - managed by a mutual fund manager
 - Index Funds - tracking an index
 - ETFs - managed by ETF companies
 
-
-#######################
-# Portfolio Management
-#######################
+## Portfolio Management
 - Traditional Portfolios (how many % of products)
 - Advanced Portfolios (by professionals)
 
-
-######################
-# Investment Approach
-######################
-- Passive (very diversified products / vehicles with little amount invested per month)
+## Investment Approach
+- Passive (very diversified products / vehicles with little amount invested per month or quarter or year)
 - Active (lot of rebalancing and selective products, heavy and frequent investments)
-
 
 ------------------------------------
 
-### Why Invest ?
+###############
+# Why Invest ?
+###############
 
 # Grow wealth
 
@@ -49,14 +43,16 @@ the profits are much more than 40 years of work and salary saved!
 
 ------------------------------------
 
-### Fundamentals of investing
+#############################
+## Fundamentals of investing
+#############################
 
 ############
 # Inflation
 ############
 - general rise in price level relative to available goods
 example:
-a pizza which was 5 dollars 6 years back wll cost 10 dollars today
+a pizza which was 5 dollars 6 years back will cost 10 dollars today
 
 - each country has yearly some %age of inflation rate
 example:
@@ -80,13 +76,13 @@ Principal = 10K
 Rate = 10% p.a.
 Period = 10 years
 
-- Simple interest
+# Simple interest
 every year get 1K interest and enjoy with it (not reinvest to Principal)
 Simple interest profit after 10 years = P * R * T
 = 10K * 0.1 * 10
 = 10K
 
-- Compound interest
+# Compound interest
 every year get 1K interest and reinvest to Principal
 Compound interest profit after 10 years = P * (1 + R) ^ T
 = 10K (1 + 0.1) ^ 10
@@ -357,19 +353,98 @@ example:
 ## Value companies
 - companies that are mature and generating good income relative to their price
 - not expected to grow their income much in the future
-- have a low OE ratio, low PB ratio and give out dividends
+- have a low PE ratio, low PB ratio and give out dividends
 - example - WALMART
 
 - Warren Buffet has been known investing in only Value companies
 
 
+#############
+# Book value
+#############
+- value of a business according to its books (accounts) that is reflected through its financial statements
+- represents the total amount a company is worth if all its assets are sold and all the liabilities are paid back
+
+- example:
+go to a company, fire all its employees, sell all the building, equipments, everything and pay all its debt
+money left is book value
+
+## Book Value per Share (BVPS)
+- ratio tells the book value of a company on a per share basis
+- calculated by dividing the Company's book value by its number of outstanding shares
+
+## Price-to-Book (P/B)
+- ratio compares the price of the stock to the BVPS
+- calculated by dividing the company's stock price by its BVPS
+- tells us how much we are paying for each dollar of book value
 
 
+############
+# Dividends
+############
+- distribution of profits by a corporation to its shareholders
+- when a corporation earns a profit or surplus, it is able to pay a proportion of the profit as a dividend to shareholders
+- any amount not distributed is taken to be re-invested in the business
+- Dividend amount = amount of money paid per share
+
+- there are companies who pay mostly quarterly, monthly (rare), yearly or no dividends
+https://www.dividend.com/
+
+## Declaration date
+- date when the company declares that they will pay a dividend and the dividend amount too
+
+## Record date
+- company records the names of all shareholders who are eligible and will receive dividend at the end of this day
+
+## Ex-dividend date
+- if buy the share on this date or after - will NOT receive the dividend
+- in US, stock settlement is T+2 -
+meaning it takes 2 business days after the stock is bought on exchange
+and when the name of stock holder actually comes in stock certificate
+
+- thus, ex-dividend date is one date BEFORE the record date
+- in other words, stock needs to be bought on exchange atleast 2 days before record date to receive dividends
+
+- mostly, the next day after ex-dividend date, stock prices goes down by dividend amount
+example:
+stock price on 11th = 10$
+ex-dividend date = 12th
+dividend to be paid = 1$
+stock price on 13th = 9$
+
+## Dividend yield
+- annual dividends paid divided by the current market price
+- tells us how much the dividends are in %age
+- as a shareholder, you look for higher dividend yields
 
 
+-----------------
+
+## Technical Analysis
+- study of charts (price and volume) to predict future price movement
+
+## Fundamental Analysis
+- analysis of everything that can impact the financial health of the company:
+earnings, competitors, economy, interest rates, employment, laws, etc
+
+- long-term investors (common public) use fundamental anaylsis
+- traders, speculators, hedgers use technical analysis
+
+-----------------
 
 
+######################
+# Investment Vehicles
+######################
+- Underlying Assets (buy/sell the products directly)
+- Mutual Funds - managed by a mutual fund manager
+- Index Funds - tracking an index
+- ETFs - managed by ETF companies
 
+
+##########
+# Indexes
+##########
 
 
 
