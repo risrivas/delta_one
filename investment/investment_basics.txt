@@ -445,6 +445,43 @@ earnings, competitors, economy, interest rates, employment, laws, etc
 ##########
 # Indexes
 ##########
+- correct word is indices
+- tracks a value using a formula
+- example - track the home expenses, unemployment rate, etc
+
+- market index: track the market-cap OR prices of largest companies in stock market
+- there is a good correlation (almost 97%) between the country's GDP and stock market index of that country
+
+# The Dow Jones Industrial Average aka "The Dow"
+- started in 1896
+- incorporates 30 companies
+- price weighted (not a good formula)
+- ticker: DJI
+
+# Standard and Poor's 500 Index - S&P 500 Index
+- based on the market cap of the 500 largest companies
+- market-cap weighted
+- ticker: SPX
+- represents the performance of the US stock market
+
+- while checking in trading view for a ticker, better to use log returns chart as it will give percentage change
+
+
+#############
+# Index Fund
+#############
+- funds that seek to replicate the performance of an index they are replicating
+- example:
+  - suppose 10 investors invest 10K dollars each - total 100K in an index fund tracking SPX
+  - fund manager will invest 100K exactly in same proportion as the market cap of each company forming the index
+  - so, say Apple is having 2.5% market cap in SPX = total 2.5K dollars will be invested in Apple stocks
+  - fund manager will charge commission from each investor every year - also called as expense ratio
+
+- largest index funds providers: Vanguard, BlackRock
+https://advisors.vanguard.com/investments/mutual-funds
+https://www.blackrock.com/hk/en/products/products-list#!type=all&style=All&fr=43512&view=perfNav
+
+
 
 
 
