@@ -482,6 +482,48 @@ https://advisors.vanguard.com/investments/mutual-funds
 https://www.blackrock.com/hk/en/products/products-list#!type=all&style=All&fr=43512&view=perfNav
 
 
+#######################
+# Net worth projection
+#######################
+- excel is attached
+- fill in the age, salary, investing %age etc and can see the net worth
+- rule of thumb - invest at least 15% of your income
+
+
+######
+# ETF
+######
+- Exchange Traded Funds
+- an investment funds that holds assets like stocks, bonds, commodities or other investment products
+- can be traded on a stock exchange just like a stock
+
+- ETF can track an index - same as an index fund
+- difference is that money investment in index fund (via Vanguard / BlackRock) -> fund manager will invest the money in the pool
+- for ETF - investors need to buy or sell it from stock exchange (like AMEX) same like stocks
+
+- can see the ETF on trading view screener - filter on ETF and then add average volume column and sort
+https://www.tradingview.com/screener/
+
+- example - SPY which tracks S&P 500 Index
+- expense ratio = 0.09%
+- most financial trading product in the whole world
+
+- alternative ETF to track S&P 500 index is VOO having expense ratio of 0.03%
+
+- we can compare index fund (SPX) with ETF (SPY) - both tracking same S&P 500 index using trading view
+https://www.tradingview.com/chart/
+- plot SPX as line chart
+- then click on Compare and add symbol as SPY
+- as expected the line charts for both are almost same
+
+
+
+
+
+
+
+
+
 
 
 
