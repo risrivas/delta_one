@@ -517,6 +517,76 @@ https://www.tradingview.com/chart/
 - as expected the line charts for both are almost same
 
 
+###############
+# Mutual Funds
+###############
+- investment funds where individuals can pool in their money and have it managed by a professional (portfolio manager)
+- difference between mutual fund and an index fund or ETF:
+index fund or ETF replicate the market index => buy / sell stocks in the same proportion as in the index
+mutual fund does not replicate the market index but it wants to beat the market => so it can put funds in variable proportions on different products
+
+- mutual funds have higher fees than index fund / ETF
+- S&P index has an average of 10% return over last 50 years
+- Mutual fund manager target is to beat the market and produce more return than 10%
+
+- can buy mutual funds via broker / bank / blackrock / vanguard etc
+
+# open ended funds
+- you can put money any time in the fund, portfolio manage will use that money to allocate in the fund
+- you can take out the invested fund any time
+
+# close ended funds
+- has a fixed unit of shares available
+- it does not issue new shares for individuals to add money to the fund
+- individuals on the other hand can trade the shares of that fund on an exchange (just like ETF)
+- site - go to fund screener and chose
+https://www.cefconnect.com/
+
+
+#####################
+# Beating the market
+#####################
+- target of all the investors / fund managers is to beat the market index average returns
+- how to beat the market ? or if we should even try to beat the basket
+- investmenet vehicles:
+if invest in direct underlying assets (stocks, bonds etc) OR mutual funds - you are trying to beat the market
+if invest in index fund OR ETF - you are trying to align with the market index performance
+
+- portfolio management:
+if invest in traditional portfolios - you are passive investor
+if invest in advanced portfolios with frequent rebalancing and reinvestments - you are an active investor and trying to beat the market
+
+
+###########################
+# Chosing a brokerage firm
+###########################
+- a brokerage account is required to trade on stocks / etfs
+- best broker:
+https://www.interactivebrokers.com/en/index.php?f=1338
+
+- Interactive Broker has very less commissions and are insured
+- also check if there is better commission rate in the local bank provided broker account
+example: demat account in ICICI bank
+
+
+--------------------------
+
+
+#######################
+# Building a Portfolio
+#######################
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
