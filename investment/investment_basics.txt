@@ -576,6 +576,19 @@ example: demat account in ICICI bank
 # Building a Portfolio
 #######################
 
+# Diversifaction
+- diversify or split your investment into multiple assets like stocks, bonds, gold, real estate etc.
+- this helps to minimize risk as we are not sure to perform if invest in only single asset
+- Risk => measurement of volatility of returns, normally measured using standard deviation
+- normally an asset investment is preferable if it has less volatility (or less risk)
+- 2 assets are correlated if their price change similarly - if one goes up, other goes up and vice versa
+- building portfolio with uncorrelated assets is less risky with high returns
+
+- Ray Dalio's Holy Grail: Diversification
+ - it says to build portfolio with:
+   - 15 to 20 uncorrelated return streams
+   - Assets within the same sector are usually 60% correlated
+
 
 
 
