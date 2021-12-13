@@ -590,6 +590,32 @@ example: demat account in ICICI bank
    - Assets within the same sector are usually 60% correlated
 
 
+# Sectors
+- The Global Industry Classification Standard (GICS) defines these 11 sectors:
+  - Energy
+  - Materials
+  - Industrials
+  - Consumer Discretionary
+  - Consumer Staples
+  - Health Care
+  - Financials
+  - Information Technology
+  - Communication Services
+  - Utilities
+  - Real Estate
+
+- example site:
+https://finviz.com/map.ashx?t=sec
+
+- S&P 500 index has %age composition of all the above 11 sectors
+- 4 business cycles = Early (rebounds), Mid (peaks), Late (moderates), Recession (contracts)
+- in different cycles, some sectors may perform well and some may go down - so the portfolio must be rebalanced accordingly
+
+
+# Top Down Approach
+- first step is where to invest ? stock market ?
+- then decide sector -> specific stocks within that sector or do an ETF on the whole sector
+
 
 
 
