@@ -617,6 +617,15 @@ https://finviz.com/map.ashx?t=sec
 - then decide sector -> specific stocks within that sector or do an ETF on the whole sector
 
 
+# Economy
+- Gross domestic product (GDP) is a monetary measure of the market value of all the final goods and services produced in a specific time period
+- GDP = consumption + investments + govt spendings + exports - imports
+
+- when stock market crashes, govt tries to stabilise it =>
+ - fiscal policy - reduce tax rates, increase spending (new roads, schools, bridges etc)
+ - monetary policy - central bank (in US, its Federal Reserve) = change interest rates + print money
+   - if market is down, they can reduce interest rates in banks => then people will not keep their money in the banks and spend it (buy stocks, invest)
+   - if market is down, can print more money
 
 
 
