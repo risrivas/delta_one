@@ -621,22 +621,51 @@ https://finviz.com/map.ashx?t=sec
 - Gross domestic product (GDP) is a monetary measure of the market value of all the final goods and services produced in a specific time period
 - GDP = consumption + investments + govt spendings + exports - imports
 
-- when stock market crashes, govt tries to stabilise it =>
+- when stock market crashes, government tries to stabilise it =>
  - fiscal policy - reduce tax rates, increase spending (new roads, schools, bridges etc)
  - monetary policy - central bank (in US, its Federal Reserve) = change interest rates + print money
    - if market is down, they can reduce interest rates in banks => then people will not keep their money in the banks and spend it (buy stocks, invest)
    - if market is down, can print more money
 
+-----------------------------------
+
+## Sector: Consumer Staples
+- household goods that public buy for their daily needs irrespective of economuy going up or down
+- like toothpaste, cosmetics, ration, grocery, alcohol etc
+- consumer staples are noncyclical and thus are relatively stable
+- these sectors have some ETFs like: XLP, FSTA (in USA)
+- backtest the ETF XLP, useful site:
+https://www.portfoliovisualizer.com/
+
+- other sites:
+https://www.etf.com/
+https://www.etfdb.com/
+https://etfdb.com/etf/XLP/#holdings
+
+- if want to invest in a stock or ETF actively - check for liquid stocks with smaller spread
+- doing so will incur less cost to buy / sell and maximum loss will be the spread
 
 
+## Sector: Energy
+- Energy equipment & Services
+- Oil, Gas & Consumable Fuels
+- Sensitive to:
+  - health of the economy (GDP, employment rate, etc)
+  - price of commodities like oil and gas prices
+  - political events and regulations
+
+- 2 common ETFs: XLE, FENY
+- performance backtesting results have been very poor for energy sector
 
 
+## Sector: Materials
+- chemicals, construction materials, containers and packaging, metals and mining, paper and forest products, etc
+- Sensitive to:
+  - health of the economy (GDP, employment rate, etc)
+  - demand for consumer goods
+  - housing market
 
-
-
-
-
-
+- 2 common ETFs: XLB, FMAT
 
 
 
