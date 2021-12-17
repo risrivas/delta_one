@@ -283,6 +283,60 @@ Adjusted value of AAA's dividend = 0.9908 * 50M / 150M
 ##################
 # Program Trading
 ##################
+- Program Trading is trading futures against a general stock portfolio
+- Index Arbitrage is trading futures against the exact stocks that comprise an index (and in same proportion)
+- One reason why an investor who owned stocks would want to sell index products against them is:
+she has turned bearish (market may go down) and would prefer to sell index futures rather than selling stocks
+because, commission charges are quite small on futures transactions as compared to an equal dollar amount of stock
+- what is left over after selling the index futures is the "tracking error"
+
+# Tracking error
+- discrepancy between the movement of the general stock market (index) and any individual portfolio
+
+# Removing the market risk from a portfolio
+- Beta = measure of the correlation of a stock's performance to that of the stock market
+         OR, how the stock's movement relates to the market's as a whole
+
+- short-term Beta is difficult to get, thus need to calculate approximate beta by comparing stock's volatility with market's volatility
+- short-term beta approx is also called adjusted volatility
+- example:
+XYZ is volatile stock, both implied and hist volatility of 36%
+Overall market volatility = 15%
+Approx Beta = 36/15 = 2.40
+
+# Portfolio Hedge
+- non-volatile stocks in portfolio => sell less futures and vice versa
+- portfolio vol > market vol => then sell more futures
+- in other words, if one does not sell enough futures against a volatile portfolio, then there is risk of loss if the market declines
+as the portfolio will decline faster than the market
+
+# Steps to determine how many futures to sell against a diverse portfolio of stocks:
+1) Divide each stock's volatility by the market's (S&P 500 index) volatility => this is stock's adjusted volatility
+2) Adjusted capitalization of the stock in portfolio = Qty of stock * price * adjusted volatility (from step 1)
+3) Sum the adjusted cap of each stock in the portfolio
+4) Divide the sum by the index price of the futures by the unit of trading for the futures ($250 per point for S&P 500 futures) => no of futures to sell
+
+- example:
+Suppose one owns a portfolio of very diversified 3 stocks (OTC tech, utility, oil)
+Owner becomes bearish and want to sell futures to hedge -> how many futures to sell?
+Market index volatility = 15%
+Index price = 178.65
+Unit of trading = $500 (per point move)
+
+Stock | Volatility | Adjusted Vol (Step 1) | Price | Quantity | Adjusted Cap (Step 2)
+--------------------------------------------------------------------------------------
+GOGO  | 0.60       | 0.60/0.15 = 4.00      | 25    | 3000     | 3K*25*4.00 = $300K
+UTIL  | 0.12       | 0.12/0.15 = 0.80      | 60    | 5000     | 5K*60*0.80 = $240K
+OIL   | 0.30       | 0.30/0.15 = 2.00      | 45    | 2000     | 2K*45*2.00 = $180K
+--------------------------------------------------------------------------------------
+                                                                Total = $720K (Step 3)
+
+Step 4 = $720K / (500 * 178.65) = 8.06
+
+=> total 8 futures to sell
+
+
+
 
 
 
