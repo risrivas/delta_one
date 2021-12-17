@@ -178,4 +178,118 @@ or 2.5 * 50 = $125
 
 
 
+#################################
+# Stock Index Hedging Strategies
+#################################
+
+## Market Baskets
+- basic strategy:
+buy stocks whose performance simulates the performance of an index
+hedge by selling the 'overpriced' futures or options based on that index
+
+- group of stocks that is purchased in knows as "market basket" or "cash basket" of stocks
+- example:
+S&P index is at 405
+Futures on index at 408
+Premium = 3
+now strategy lies on relationship between premium and "fair value" of futures
+
+## Futures Fair Value
+- Basic formula = Current cost of underlying + (interest rate or debits) - (benefits or credits)
+- In terms of future index:
+Futures Fair value = [Index * (1 + (Time * (Rate - Yield)))] - Dividends
+
+Index = current value of index
+Rate = current carrying cost rate or broker loan rate
+       OR, current interest rate that would be paid to a broker to buy all the stocks in the index
+Yield = combined annual yield of all the stocks in the index
+       OR, Net Realized Return / Principal amount
+Time = time in years "remaining" until expiration of future contract
+Dividends = total dividends paid on all the stocks of index until expiration of future contract - expressed in terms of points on the index
+
+- example 1 (no dividends)
+S&P 500 index is trading at 160
+Borker loan rate is 10%
+Yield on 500 stocks is 5%
+Time remaining for futures expiry = 3 months
+
+Time = 3 months / 12 months = 0.25 years
+
+Futures fair value = 160 * (1 + 0.25 * (0.10 - 0.05)) - 0
+                   = 160 * (1 + 0.0125) = 162
+
+Thus, the futures contract should be having a premium of 2 (theoretically)
+
+- premium of 2 means that there is a saving to buy future contract instead of buying all 500 stocks and pay all the commissions and carry cost
+- future fair value is a function of 4 things:
+  - value of the index
+  - time remaining until expiration
+  - current carrying rate
+  - dividends being paid by the stocks in the index until expiration
+
+# Dividends have an inverse correlation to the premium value
+- futures holders do not get the dividends
+- if dividends are considered, then can remove Yield from fair value calculation
+- need to know the dividend amount and the ex-dividend dates of each of the stocks in the index
+
+
+- example 2 (with dividends)
+S&P 500 index is trading at 160
+Borker loan rate is 10%
+Dividends remaining until expiration = 1.89
+Time remaining for futures expiry = 3 months
+Time = 3 months / 12 months = 0.25 years
+
+Futures fair value = 160 * (1 + 0.25 * 0.10) - 1.89
+                   = 160 * 1.025 - 1.89 = 162.11
+
+
+## Calculation of dividends
+- get each stocks dividend amount + payment date
+- compute the present worth of each dividend and multiply that result by that stock's divisor (float / index divisor) in the index to get the dividend weight
+- index's total dividend is the sum of each of each of these individual stock computations (above step)
+
+- example:
+Suppose an index has 3 stocks:
+
+Stock | Dividend Amt | Days until Dividend payout | Float
+----------------------------------------------------------
+AAA   | 1.00         | 35                         | 50M
+BBB   | 0.25         | 60                         | 35M
+CCC   | 0.60         |  8                         | 120M
+
+Divisor of the index = 150M
+
+Formula for Present Value = Future Value / (1 + Rate) ^ Time
+Suppose current interest rate = 10%
+
+Present value of AAA's dividend = 1.00 / (1 + 0.10) ^ (35/360)
+                                = 0.9908
+
+- present value of the dividend is always less than the actual dividend
+- Similarly, PV of dividends of BBB and CCC are 0.2461 and 0.5987 respectively
+
+Adjusted value of AAA's dividend = 0.9908 * 50M / 150M
+                                 = 0.3303
+
+- Similarly, Adjusted values of BBB and CCC's dividends are 0.574 and 0.4790 respectively
+- Total Dividends to be used in Fair value calculation = 0.3303 + 0.574 + 0.4790
+                                                       = $0.8667
+- if it was a price-weighted index and not cap-weighted, then total dividends = (0.9908 + 0.2461 + 0.5987) / Divisor of Index
+
+
+-----------------------------------------------
+
+##################
+# Program Trading
+##################
+
+
+
+
+
+
+
+
+
 
