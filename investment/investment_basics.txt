@@ -668,6 +668,34 @@ https://etfdb.com/etf/XLP/#holdings
 - 2 common ETFs: XLB, FMAT
 
 
+## Sector: Industrials
+- similar to materials sector but 2 diffs:
+  - products manufactured are not raw materials
+  - example: company that produces farming tractors are industrials, but a mining company is materials
+  - companies that provide products and services whereas materials sector mainly create products
+
+- Sensitive to:
+  - health of the economy (GDP, employment rate, etc)
+  - demand for consumer goods
+  - housing market
+
+- 2 common ETFs: XLI, FIDU
+
+
+## Sector: Consumer Discretionary
+- companies that produce product and services that consumers often demand irrespective of market: new clothes, cars or entertainment
+
+- Sensitive to:
+  - health of the economy (GDP, employment rate, etc)
+  - disposable income
+  - consumer confidence
+
+- 2 common ETFs: XLIY, FDIS
+
+
+## Sector: Healthcare
+
+
 
 
 

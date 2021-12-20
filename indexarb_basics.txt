@@ -335,6 +335,93 @@ Step 4 = $720K / (500 * 178.65) = 8.06
 
 => total 8 futures to sell
 
+- total cap in above example: 3K*25 + 5K*60 + 2K*45 = $465K
+- however, as it has volatile stocks, need to hedge $720K worth of "market" to compensate for the higher volatility
+
+- always use price of index in all hedging calculations (how many stocks to buy or how many futures to sell) rather than price of future
+- notice that this example is state with this precondition:
+Owner becomes bearish and want to sell "overpriced" futures to hedge
+
+
+-------------------------------------------
+
+##################
+# Index Arbitrage
+##################
+- IA consists of buying virtually all of the stocks in an index (same proportion) and selling futures against them, or vice-versa
+- when futures are over-priced (market price > fair value): buy stocks, sell futures
+- when futures are under-priced (market price < fair value): sell (or short-sell) stocks, buy futures
+- arbitrage profit = fair value of futures - buy/sell price of stocks
+
+- trader should determine how many shares of each stock she will buy / sell to duplicate the index
+- in a price-weighted index, buy/sell the same no of shares of each stock
+- in a cap-weighted index, different numbers of shares of each stock
+
+
+## how many shares to buy
+- find total dollar amount of futures contract
+- example:
+suppose trader wants to sell 50 XYZ futures contract
+how many stocks to buy against these 50 contracts ?
+UOT (Unit of Trading) = $500 per point
+Index is trading at 168.89
+
+Total dollar amount of 50 futures = 50 * 500 * 168.89 = $422,225
+Hedger should buy this much dollar amount stock to hedge 50 futures contract sold
+
+# in a "price-weighted" index,
+no of shares to buy by determining the total dollar value of the index and divide by the index divisor
+
+- example:
+Suppose a price weighted index which has 3 stocks
+A = $30; B = $90; C = $50
+Price total = $170
+Index Divisor = 1.65843
+Index Value = 102.51
+
+No of shares of each stock in the index = 1 / 1.65843 = 0.60298 shares
+Thus, if we were to buy 0.60298 shares of each of the 3 stocks, we would have creted the index
+
+Now, suppose the futures on this index is $250 per point
+=> no of shares to buy to hedge 1 futures contract =  0.60298 * 1 * 250 = 150.745 shares of each stock
+
+for 100 futures contracts, no of shares to buy = 0.60298 * 100 * 250 = 15074.5 shares of each stock
+=> so buy 15100 shares of each stock and on every 4th round - buy 15000 shares to avoid odd lots
+
+
+# in a "cap-weighted" index,
+- formula is same as price-weighted index
+
+ -----------------------------------------------------------------------------
+| Shares of stock N to buy = Shares of N in index * Futures qty * Futures UOT |
+ -----------------------------------------------------------------------------
+
+- Shares of N in index = float of N / Index divisor
+- example:
+
+index value = 115.80
+Divisor = 147.5M
+
+Stock | Price | Float | Capitalization | Shares
+---------------------------------------------------------------
+A     | 40    | 177M  | 7080M          | 177M / 147.5M = 1.20
+B     | 80    | 50M   | 4000M          | 50M / 147.5M = 0.34
+C     | 60    | 100M  | 6000M          | 100M / 147.5M = 0.68
+---------------------------------------------------------------
+                       Total = 17080M
+
+- so buy 1.20 shares of A, 0.34 shares of B and 0.68 C shares, trader will duplicate the index
+- suppose Futures UOT on this index = $500
+
+- if want to sell 5 futures at a time,
+no of A shares to buy = 1.20 * 5 * 500 = 3000; dollar amount = 3000 * 40 = $120K
+no of B shares to buy = 0.34 * 5 * 500 = 850; dollar amount = 850 * 80 = $68K
+no of C shares to buy = 0.68 * 5 * 500 = 1700; dollar amount = 1700 * 60 = $102K
+
+total = $290K worth of stocks to buy
+
+- dollar amount of futures = 5 * 500 * 115.80 = $289.5K
+- this is close to $290K as calculated above
 
 
 
