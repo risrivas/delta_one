@@ -517,6 +517,25 @@ This return is over and above whatever rate we used in determining the fair valu
 ##################
 # Trade Execution
 ##################
+- need to monitor bids / offers
+- example:
+Futures fair value = premium of 1.25 points
+Futures market value = premium of 2 points
+Index value = 165.75
+Futures last trade = 167.75
+
+=> arbitrage opportunity - sell futures and buy index stocks
+
+however, index value of 165.75 is the composite of the last trade of each stock in the index
+if recompute the index value - it might end up with 50 cents higher
+
+# Institutional strategies
+- when the futures are underpriced, then instead of buying stocks, the entire amount intended for stock purchase
+can be put in Treasury bills or futures AND vice versa
+- if we are going to get 7.5% return from T-Bills and 11.5% returns from futures arbitrage, go fo arbitrage
+
+# Follow up strategies
+
 
 
 

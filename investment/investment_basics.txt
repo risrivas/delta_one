@@ -694,8 +694,34 @@ https://etfdb.com/etf/XLP/#holdings
 
 
 ## Sector: Healthcare
+- companies that provide all medical services
+
+- Sensitive to:
+  - demand is usually the same regardless of economic outlook
+  - govt policies
+
+- 2 common ETFs: XLV, FHLC
 
 
+## Sector: Financials
+- companies that provide all financial services
+
+- Sensitive to:
+  - early stage sensitivity
+  - interest rates
+
+- 2 common ETFs: XLF, FNCL
+
+
+## Sector: Information Technology
+- companies that provide all technology based goods and services
+
+- Sensitive to:
+  - economic health
+  - overperform in early/mid business cycle
+  - underperform in late/recession business cycle
+
+- 2 common ETFs: XLK, FTEC
 
 
 
