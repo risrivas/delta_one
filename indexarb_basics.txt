@@ -424,6 +424,105 @@ total = $290K worth of stocks to buy
 - this is close to $290K as calculated above
 
 
+# Alternative method to calculate no of shares to buy
+- first check how many total dollars to buy stocks, e.g. $10M worth of S&P 100 (OEX)
+- $10M percentage in total cap of index = 0.02%
+=> then buy 0.02% of each stock float's value (0.02 * float)
+
+- no of futures to sell (same formula) => $10M / (Index price * Futures UOT)
+- example:
+Suppose a hedger wants to buy $290K of stocks of an index containing 3 stocks A, B, C (same as previous example)
+Total cap of index = $17080M
+
+=> %age of $290K in total cap = $290K / $17080M = 0.0016979%
+
+no of A shares to buy = 177M * 0.0016979 = 3005
+no of B shares to buy = 50M * 0.0016979 = 849
+no of C shares to buy = 100M * 0.0016979 = 1698
+
+these numbers are very near to the previous method calculation
+
+
+# When futures are underpriced, then can buy futures and short sell all the stocks
+- however, this is very difficult to setup because there may be lot of restrictions in short selling:
+exchange may not allow short sell
+short selling may apply uptick rules - short sell price should be 1 tick above the last traded price
+
+
+
+#################################
+# Profitability of the Arbitrage
+#################################
+- major cost in executing IA is the cost of commissions
+- commissions cost are lower if huge qty of stocks are traded
+- for ex: an institutional trader may pay 3 cents or less for each share
+
+- once commission rates are known (number) - add it to the index price
+- multiply per-share commission rate by the current index value and divide the result by the average price of the index
+- example:
+suppose a trader wants to buy the entire ZYX index at a commission rate of 3 cents per share
+index is trading at 185
+average price of a share in the index = 45 dollars per share
+
+Commission in terms of index = (Commission rate per share * Index Value) / Avg price per share
+                             = 0.03 * 185 / 45
+                             = 0.123
+
+=> thus, a commission rate of 3 cents per share translates to 12.3 cents of index value
+
+- most difficult is to calculate this for a cap weighted index => average price of a share in the index
+- for price weighted index, its easy to take the average
+
+
+## net profit via example:
+suppose S&P 500 index is trading at 185
+Futures expires in 2 months have a fair value premium of 2 points (187)
+Futures market value = 188.50 (premium of 3.5 points)
+Futures UOT = $500 per point
+
+=> as Futures are over priced, its arbitrage opportunity
+=> net profit is premium over fair value less all costs of entering and exiting the position
+
+3 cents per share stock commission, we pay an index value of 0.123 to enter the position
+similarly, we would pay 0.123 in index value to exit the position at a later date
+=> thus the net round-turn commission is around 25 cents of index value
+
+commission on futures is charged when the position is closed out
+suppose futures commission is $10 per contract
+index value 185 represents 1/500th of the value of futures contract
+reduce the futures contract commission = $10/500 = $0.02
+
+=> total commission for entering and exiting the position = (0.123*2) + 0.02 = 0.266 of index value
+
+Net Profit = Futures market price - Futures fair value - Commission costs
+           = 188.50 - 187 - 0.266
+           = 1.23 (approx)
+
+Net profit number can be converted into a rate of return by annualizing the profit and dividing by the current index price
+Futures expires in 2 months
+
+Incremental Rate of Return = (Net Profit * (1/Time remaining)) / Index price
+                          = 1.23 * (12/2) / 185
+                          = 3.99%
+
+This return is over and above whatever rate we used in determining the fair value of the futures
+
+=> Thus, if an institution were going to invest its cash at the prevailing short-term rate,
+     and that rate were used to determine the futures fair value in the above example,
+     then the institution could earn an additional 3.99%, annualized,
+     if it arbitraged the futures rather than put its money in the short-term money market
+
+
+
+##################
+# Trade Execution
+##################
+
+
+
+
+
+
 
 
 
