@@ -21,27 +21,22 @@
 - Passive (very diversified products / vehicles with little amount invested per month or quarter or year)
 - Active (lot of rebalancing and selective products, heavy and frequent investments)
 
-------------------------------------
 
 ###############
 # Why Invest ?
 ###############
 
-# Grow wealth
+- Grow wealth
 
-# Retire
 - Retire early (replace salary with profits)
 - Retire with more money
-
-example:
-- If invest 15% of income every year on an index fund (say S&P 500 index),
+- example:
+If invest 15% of income every year on an index fund (say S&P 500 index),
 the profits are much more than 40 years of work and salary saved!
 
-# To make a big purchase
-- Buy house, car, travel the world, etc
+- To make a big purchase: buy house, car, wedding, travel the world, etc
 
 
-------------------------------------
 
 #############################
 ## Fundamentals of investing
@@ -182,7 +177,7 @@ this is "secondary" market =>
 - Floor trader on NYSE start screaming on the trading pit - 20 GE stocks to buy at 80 dollars
 
 modern way =>
-- open a trading account with broker, ex: Interactive Brokers, Alpaca etc
+- open a trading account with broker, ex: Interactive Brokers, ICICI Demat, Alpaca etc
 - buy and sell using computer via api provided by broker
 - orders go to the exchange order book for GE in bid and offer
 - broker provide the trading screen where the order status is displayed
@@ -256,6 +251,9 @@ https://finance.yahoo.com/
 
 - good for US
 https://finviz.com/
+
+- good for India
+https://stockedge.com/
 
 
 #############
@@ -643,7 +641,7 @@ https://www.etfdb.com/
 https://etfdb.com/etf/XLP/#holdings
 
 - if want to invest in a stock or ETF actively - check for liquid stocks with smaller spread
-- doing so will incur less cost to buy / sell and maximum loss will be the spread
+- doing so will incur less cost to buy / sell and maximum loss will be the spread (ask-bid)
 
 
 ## Sector: Energy
@@ -717,15 +715,77 @@ https://etfdb.com/etf/XLP/#holdings
 - companies that provide all technology based goods and services
 
 - Sensitive to:
-  - economic health
+  - economic health (GDP, employment rate, etc)
   - overperform in early/mid business cycle
   - underperform in late/recession business cycle
 
 - 2 common ETFs: XLK, FTEC
 
 
+## Sector: Communication Services
+- companies that provide all networking services like wireless, internet, etc
+
+- Sensitive to:
+  - economic health (GDP, employment rate, etc)
+  - used to be telecom sector (changed to Communication Services in 2018)
+  - now includes FB, NFLX, GOOG etc
+
+- Common ETF: XLC
 
 
+## Sector: Utilities
+- companies that provide electricity, gas and water
+
+- Sensitive to:
+  - noncyclical as the demand is usually the same regardless of economic outlook
+  - considered a defensive sector
+  - usually highly regulated by the govt
+
+- 2 common ETFs: XLU, FUTY
+
+
+## Sector: Real Estate
+- includes equity real estate investment trusts (REITs) and companies engaged in real estate dev
+
+- Sensitive to:
+  - economic health (GDP, employment rate, etc)
+  - interest rates
+
+- 2 common ETFs: XLRE, SCHH
+
+
+------------------------------------------
+
+############################
+# Basic All-Stock Portfolio
+############################
+- Portfolio Decisions
+
+--------------------------------------------------------------------
+    Portfolio       |     Passive       |         Active
+--------------------------------------------------------------------
+Equity              | ETFs, Index Funds | ETFs, Index Funds, Stocks
+Equity, Bonds       | ETFs, Index Funds | ETFs, Index Funds, Stocks
+Equity, Bonds, Gold | ETFs, Index Funds | ETFs, Index Funds, Stocks
+
+
+- Activity Level
+Select Asset Allocation
+Select Securities
+Rebalancing
+Tactical Asset Allocation
+
+- better to start with passive portfolio and after that slowly move to active (once have more knowledge and experience)
+- if go to professional investment advisor - normally they charge fees which will affect the final returns
+
+
+## Mutual Funds vs Index Funds and ETFs
+- normally mutual funds are unable to beat the market in the long run:
+https://www.cnbc.com/2019/03/15/active-fund-managers-trail-the-sp-500-for-the-ninth-year-in-a-row-in-triumph-for-indexing.html
+https://www.cnbc.com/2021/11/01/in-one-of-the-most-volatile-markets-in-decades-active-fund-managers-underperformed-again.html
+
+- reason of mutual fund failure is that its highly diversified, high fees, very conservative (and passive)
+- diversification can preserve the money but they can not increase the money
 
 
 

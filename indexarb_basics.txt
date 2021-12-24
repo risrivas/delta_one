@@ -534,7 +534,38 @@ if recompute the index value - it might end up with 50 cents higher
 can be put in Treasury bills or futures AND vice versa
 - if we are going to get 7.5% return from T-Bills and 11.5% returns from futures arbitrage, go fo arbitrage
 
-# Follow up strategies
+## Follow up strategies
+- Once any hedge is made, need to monitor for adjustments:
+  # stock spin-offs: a parent company distributes shares of a subsidiary to the parent company's shareholders
+                     so that the subsidiary becomes a separate, independent company
+    - such a spin-off is not included in the index price
+    => so the hedger should sell off such items as soon as she receives them, for they do not pertain to her hedge
+
+- adjust portfolio every time the index divisor is changed
+- or if new component stock added to the index
+
+# rolling futures to another month
+- when future expiration nears, if futures are underpriced, unwind the entire position - sell the stocks and buy futures
+- if futures are still expensive, then roll the futures to next expiry
+  => buy the current futures expiry (which were short) and sell the next series of futures
+
+- to determine if the roll is feasible: compare the fair value of the spread between the 2 futures
+- if the current market is greater than the theo value of the spread, then roll makes sense if one is long stocks and short futures
+
+- if futures were underpriced and hedger had short stocks and bought futures, in this case,
+- roll futures if the current market value is less than the theo value of the spread
+
+- example:
+S&P index value = 416.50
+Hedger is short March future trading at 417.50
+June future is trading at 421.50
+Spread between Mar and Jun futures = 4.00
+
+Fair value premium for Mar futures = 0.35
+Fair value premium for Jun futures = 3.25
+Fair value of spread = 2.90
+
+=> one should consider buying back Mar futures and sell the Jun futures
 
 
 
