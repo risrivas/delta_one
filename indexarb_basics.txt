@@ -568,6 +568,24 @@ Fair value of spread = 2.90
 => one should consider buying back Mar futures and sell the Jun futures
 
 
+#####################
+# Market Basket Risk
+#####################
+- one risk is risk of execution
+it may appear that the futures are trading at a premium of 1.50 points when enter the order
+if other hedgers are doing the same thing, then one may pay more in buying stocks and getting less in selling futures
+thus, if the stocks are not executed, this execution risk can make arbitrage less profitable
+also interest rates can rise when the stocks are getting executed
+
+- example
+suppose use a rate of 7.5% => long stocks and short futures
+incremental rate of return = 1.5%
+now interest rates can increase upto 9.5% or higher while the stocks are being bought
+thus, its better to use 1 or 2% cushion to calculate the hedge / fair value
+
+- if the dividends values are changed while stocks are executed = this will also affect profit
+- if the market custom basket does not contain exact proportions of index stocks, there is a big risk of "tracking error"
+
 
 
 
