@@ -788,6 +788,45 @@ https://www.cnbc.com/2021/11/01/in-one-of-the-most-volatile-markets-in-decades-a
 - diversification can preserve the money but they can not increase the money
 
 
+## Efficient Market Hypothesis (EMH)
+- its impossible to "beat the market" because asset prices reflect all available information
+- 3 forms:
+  - weak-form = technical analysis (based on historical prices) can not predict future prices
+  - semistrong-form = even weak-form (historical prices) + fundamental public informations can not predict prices and beat the market
+  - strong-form = even semistrong + "insider" information can not predict prices and beat the market
+- in reality (as agreed my majority of investors) = market is weakly efficient
+
+
+## Expectations
+- if a stock performs more than expected, its value will increase
+- expectation is the expected value of X, written as E(X) or sometimes as μ
+- expectation is what you would expect to get if you were to carry out the experiment a large number of times and calculate the 'mean'
+
+- To calculate the expectation we can use the following formula:
+E(X) = ∑ xP(X = x)
+- multiply each value of x with its corresponding probability. If we then add all these up we obtain the expectation of X.
+
+- example:
+expectation of rolling a die
+=> probability of each number to come = 1/6
+E(X) = 1 * (1/6) + 2 * (1/6) + 3 * (1/6) + 4 * (1/6) + 5 * (1/6) + 6 * (1/6)
+     = 3.5
+
+
+## Passive vs Active Investing
+- Passive = you are getting your fair share of the market returns
+- Active = you are trying to beat the market - can achieve this by only being differently diversified than the market
+
+- ideally, one should start as passive investor and slowly graduate to active investor after gaining some knowledge and experience with the market
+
+
+## Passive All-Stock Portfolio
+- in the long run, equity (stocks) outperformed bonds and gold
+- we can buy index fund wthout opening any brokerage account (via Vanguard or Blackrock)
+- but for buying ETF, need a borkerage account
+- for passive investors, best to have some instalments (say 15% of your salary) every month and invest in ETF or index fund
+- this will average out all the market ups and down and give the average return
+  - i.e. around 12% return which is much higher return than FD or bank savings account interest
 
 
 
