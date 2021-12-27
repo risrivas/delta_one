@@ -634,6 +634,7 @@ https://finviz.com/map.ashx?t=sec
 - these sectors have some ETFs like: XLP, FSTA (in USA)
 - backtest the ETF XLP, useful site:
 https://www.portfoliovisualizer.com/
+https://www.portfoliovisualizer.com/backtest-portfolio
 
 - other sites:
 https://www.etf.com/
@@ -829,8 +830,25 @@ E(X) = 1 * (1/6) + 2 * (1/6) + 3 * (1/6) + 4 * (1/6) + 5 * (1/6) + 6 * (1/6)
   - i.e. around 12% return which is much higher return than FD or bank savings account interest
 
 
+## Active Asset Allocation
+- select asset allocation other than the market
+- for ex: if index is having 25% in technology sector, you are chosing different than 25%
+https://etfdb.com/screener/#page=1&asset_class=equity&investment_strategies=Value&sort_by=average_volume&sort_direction=desc
+
+- Portfolio Visualizer
+https://www.portfoliovisualizer.com/backtest-portfolio
+Benchmark ticker = SPY
+
+- case 1
+Asset1 = SPYD
+Asset2 = RPV
+
+- case 2
+use only few sectors (XLK, XLV, XLP, XLY with 25% each) and create only 1 portfolio
 
 
+## Active Security Allocation
+- decide a sector and then select stocks in that sector
 
 
 
