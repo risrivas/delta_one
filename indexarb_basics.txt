@@ -209,7 +209,7 @@ Dividends = total dividends paid on all the stocks of index until expiration of 
 
 - example 1 (no dividends)
 S&P 500 index is trading at 160
-Borker loan rate is 10%
+Broker loan rate is 10%
 Yield on 500 stocks is 5%
 Time remaining for futures expiry = 3 months
 
@@ -235,7 +235,7 @@ Thus, the futures contract should be having a premium of 2 (theoretically)
 
 - example 2 (with dividends)
 S&P 500 index is trading at 160
-Borker loan rate is 10%
+Broker loan rate is 10%
 Dividends remaining until expiration = 1.89
 Time remaining for futures expiry = 3 months
 Time = 3 months / 12 months = 0.25 years

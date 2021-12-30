@@ -1,1 +1,149 @@
+################
 # Introduction
+################
+
+https://coinmarketcap.com/
+
+- why invest in cryptocurrencies?
+to generate profit
+
+- how do you generate profit?
+by investing in something that is undervalued
+
+- what is the value of cryptocurrencies?
+we need to look at the problems they want to solve and the value for solving these problems
+
+----------
+
+# Fiat (currency like USD, GBP, etc) problems that cryptocurrencies solve:
+- Fiat: Governments can print as much as they want causing inflation => thus devaluing our money
+- Crypto: Scarce or limited amount
+
+https://coinmarketcap.com/currencies/bitcoin/
+=> Max supply is 21M BTC and this is fixed
+
+- Fiat: High fees involved in transferring and using (wire transfers / merchant fees)
+- Crypto: Cheaper fees for transferring / paying (this is still in progress)
+
+- Fiat: Financial institutions security beign breached, Frauds
+- Crypto: Extreme security => Funds cannot be hacked
+
+- Fiat: You have to trust someone to hold your money (i.e. Banks)
+- Crypto: Immutable => don't need to trust anyone
+
+
+
+############################################
+# How cryptocurrencies work: the blockchain
+############################################
+
+## What are cryptocurrencies?
+A digital currency in which encryption techniques are used to regulate the generation of units of currency
+and verify transfer of funds, operating independently of a central bank
+- decentralized
+- trustless
+- immutable
+- scarce
+
+
+## Hash Function
+A cryptographic hash function is a hash function which takes an input (or 'message')
+and returns a fixed size alphanumeric string => this string is called the 'hash value' or 'digest'
+
+- Proprties of a good hash function:
+  - efficient to compute
+  - collision resistant (no 2 messages can give the same hash value)
+  - hides the information of the input
+  - output should look random
+  - calling hash function multiple times on the same input should always return the same hash value
+
+- Examples of hash functions:
+  - Message Digest 5 (MD5) = one of the first hash functions
+  - Secure Hash Algorithm (SHA):
+    - SHA-1
+    - SHA-224
+    - SHA-256 => this is used by crypto
+    - SHA-384
+    - SHA-512
+
+
+## Ledger
+A ledger is the principal book or computer file for recording and totaling economic transactions measured
+in terms of monetary unit of account by account type, with debits and credits in separate columns and
+a beginning monetary balance and ending monetary balance for each account.
+OR
+in simpler words - its a file containing transaction(s)
+=> blockchain is a chain of ledgers
+
+# example:
+suppose we have a ledger for 4 friends having their account balance
+its a public ledger and anyone can read/write it
+
+- Ledger - Day0
+Moh = $100
+Kam = $20
+Queeny = $50
+Omid = $0
+
+- Ledger - Day1
+-- transactions
+Moh => Kam $20
+Moh => Omid $10
+Queeny => Moh $5
+Kam => Queeny $10
+
+-- balance
+Moh = $75
+Kam = $30
+Queeny = $55
+Omid = $10
+
+- Ledger - Day2 - there is a flaw here as anyone can write to the ledge
+-- so if Omid writes the ledger as
+Moh => Omid $75
+
+it means Moh has lost all his money => crypto is highly secured and it will be explained later how to fix it
+
+
+## Public keys, Secret keys & digital signatures
+- digital signature
+a process that guarantees that the contents of a message have not been altered in transit
+
+- public and private keys refer to the 'keys' used to encrypt/decrypt information
+- public key is available to many
+- private key/secret key is made available to the originator of the encrypted content
+
+What is needed:
+- a public key "Pk" and a secret key "Sk"
+- a signature function:
+  => SignatureFunc(Hash(info), Sk) = Signature
+- a Validation function:
+  => ValidationFunc(Hash(info), Signature, Pk) = True/False
+
+- thus to fix the earlier issue
+- Ledger - Day2 - there is a flaw here as anyone can write to the ledge
+-- so if Omid writes the ledger as
+Moh => Omid $75
+
+this can not happen
+as Moh has his secret key through which will have a unique signature
+
+SignatureFunc(Hash(info = "Moh => Omid $75"), Moh_Sk) => Moh_Signature
+so Omid will fail in validation func as he doesn't has Moh_signature to validate his transaction
+
+- everyone in the world have their own copy of ledger as it is decentralized
+- now we need to have consesus that which ledger is correct and latest copy
+=> this is where blockchain comes in....
+
+
+## Blockchain - part-1
+A digital ledger in which transactions made in bitcoin or another cryptocurrency are recorded chronologically and publicly
+
+
+
+
+
+
+
+
+

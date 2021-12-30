@@ -824,7 +824,7 @@ E(X) = 1 * (1/6) + 2 * (1/6) + 3 * (1/6) + 4 * (1/6) + 5 * (1/6) + 6 * (1/6)
 ## Passive All-Stock Portfolio
 - in the long run, equity (stocks) outperformed bonds and gold
 - we can buy index fund wthout opening any brokerage account (via Vanguard or Blackrock)
-- but for buying ETF, need a borkerage account
+- but for buying ETF, need a brokerage account
 - for passive investors, best to have some instalments (say 15% of your salary) every month and invest in ETF or index fund
 - this will average out all the market ups and down and give the average return
   - i.e. around 12% return which is much higher return than FD or bank savings account interest
