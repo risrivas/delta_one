@@ -45,6 +45,7 @@ and verify transfer of funds, operating independently of a central bank
 - immutable
 - scarce
 
+-----------
 
 ## Hash Function
 A cryptographic hash function is a hash function which takes an input (or 'message')
@@ -66,6 +67,8 @@ and returns a fixed size alphanumeric string => this string is called the 'hash 
     - SHA-384
     - SHA-512
 
+
+-----------
 
 ## Ledger
 A ledger is the principal book or computer file for recording and totaling economic transactions measured
@@ -105,6 +108,8 @@ Moh => Omid $75
 it means Moh has lost all his money => crypto is highly secured and it will be explained later how to fix it
 
 
+-----------
+
 ## Public keys, Secret keys & digital signatures
 - digital signature
 a process that guarantees that the contents of a message have not been altered in transit
@@ -136,8 +141,87 @@ so Omid will fail in validation func as he doesn't has Moh_signature to validate
 => this is where blockchain comes in....
 
 
+-----------
+
 ## Blockchain - part-1
 A digital ledger in which transactions made in bitcoin or another cryptocurrency are recorded chronologically and publicly
+
+- there are group of people ("miners") who will keep on creating Block Ledgers containing all the transactions
+- so whenever any transaction takes place - its boradcasted and entered into Block
+- once the block is completed, there is a puzzle to finish which validates all the transactions in the block before moving to another block
+- if any evil transaction is done, then it will be discarded if more than 51% miners invalidate it
+
+
+-----------
+
+## Mining
+- in cryptocurrency networks, mining is a validation of transactions
+- for this effort, successful miners obtain new cryptocurrency as a reward
+- the reward decreases transaction fees by creating a complementary incentive to contribute to the processing power of the network
+- miners also get transaction fees for solving (validating) a block
+
+- so there are group of miners who are listening to the cryptocurrency network
+- suppose there is a miner who is creating his local copy of block
+- once her block completes, she gets a cryptographic puzzle to solve
+- puzzle can be like - hash function created of block should contain x number of 0s in it
+- so the miner will keep on trying different hash functions to solve the puzzle => it takes enormous computers / resources and time to solve a puzzle
+- once the puzzle is solved - miner will mark his block as public and publish it to the block chain
+- now all the other miners have to solve the puzzle and publish their block to the blockchain
+- final block which is published and true is the once which has more than 51% similar blocks
+- longest blockchain is considered to be true and others are discarded
+- so eny evil minor if he puts fake transactions - his block will not be accepted
+- even if there are group of evil miners (more than 51%) - the puzzle is so difficult and resource consuming process to solve
+that it will cost more to solve the puzzle by 51% miners rather than the money it can make from evil transactions
+
+- on average it takes 10 mins to solve the puzzle by a miner
+- reward of solving a block is 12.5 bitcoin
+- normally miners work in groups and pool their computer resources to solve the puzzle
+- the reward of bitcoins will decrease every 4 years => by 2044 no bitcoins will be rewarded and miners will make money only by transaction fees
+- mining is a very hard business and their are small companies with group of miners working together to solve the blocks and earn
+
+- mining work is also called as Proof of Work (POW)
+
+
+-----------
+
+## Blockchain - part-2
+
+Bitcoin blockchain:
+- public & permission-less
+- cryptographic hash function
+- digital signatures, public and private keys
+- P2P (point to point) network
+- Proof of work (POW) consensus algorithm
+
+What users get:
+- do transactions without needing to trust anyone
+- decentralized: everyone has all the information at any time
+- cryptographic puzzles, coupled with game theory gives no incentive for someone to be a bad actor
+
+- all the blocks are connected - so block 2 will have hash of block 1
+- if anyone tries to change any block in blockchain, it will create a new hash which will break the chain
+- thus blockchain is immutable
+
+- blockchain technology can be used in many other applications (like govt elections, files validations, etc)
+
+
+-----------
+
+## Quiz 1
+- What is a Blockchain?
+A digital ledger where transactions are recorded chronologically and publicly
+
+- What do you need to spend (or transfer) your cryptocurrency?
+Your secret key => You can digitally sign a transaction (spend a crypto) by using your Secret Key
+
+- What is the current Hash Function used by the Bitcoin Protocol?
+SHA-256
+
+-----------
+
+
+
+
 
 
 
