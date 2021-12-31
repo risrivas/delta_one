@@ -851,6 +851,51 @@ use only few sectors (XLK, XLV, XLP, XLY with 25% each) and create only 1 portfo
 - decide a sector and then select stocks in that sector
 
 
+## Rebalancing
+- say 50% stock A, 50% stock B, total 10K to invest
+- A's price = $5 = total 1000 stocks
+- B's price = $50 = total 100 stocks
+- if A's price goes up to $10 => total $10K
+- if B's price goes down to $25 => total $2.5K
+- total = $12.5K => although its profit - if we could have rebalanced the portfolio when B was going down
+- however, its not 50% rebalancing = A has got 80% of the portfolio while B is 20%
+- monthly rebalancing means that after each month - buy/sell stocks A or B so that composition is again 50% each
+- also there is an option that rebalance only if both stocks have deviated more than say 10% or 15%
+
+- smart strategy is to do rebalancing amongst sectors or amongst asset classes(stocks/bonds/gold) rather than stocks
+- site to do backtest for rebalancing:
+https://www.etfreplay.com/
+https://www.etfreplay.com/combine.aspx
+
+
+## Investment vs Trading
+- Passive Investing
+- Active Investing
+- Swing Trading
+- Short Term Trading
+
+
+------------------------------
+
+########
+# Bonds
+########
+
+## Introduction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
