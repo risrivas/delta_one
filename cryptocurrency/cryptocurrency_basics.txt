@@ -167,9 +167,9 @@ A digital ledger in which transactions made in bitcoin or another cryptocurrency
 - so the miner will keep on trying different hash functions to solve the puzzle => it takes enormous computers / resources and time to solve a puzzle
 - once the puzzle is solved - miner will mark his block as public and publish it to the block chain
 - now all the other miners have to solve the puzzle and publish their block to the blockchain
-- final block which is published and true is the once which has more than 51% similar blocks
+- final block which is published and true is the one which has more than 51% similar blocks
 - longest blockchain is considered to be true and others are discarded
-- so eny evil minor if he puts fake transactions - his block will not be accepted
+- so eny evil miner if he puts fake transactions - his block will not be accepted
 - even if there are group of evil miners (more than 51%) - the puzzle is so difficult and resource consuming process to solve
 that it will cost more to solve the puzzle by 51% miners rather than the money it can make from evil transactions
 
@@ -190,7 +190,7 @@ Bitcoin blockchain:
 - public & permission-less
 - cryptographic hash function
 - digital signatures, public and private keys
-- P2P (point to point) network
+- P2P (peer to peer) network
 - Proof of work (POW) consensus algorithm
 
 What users get:
@@ -220,7 +220,64 @@ SHA-256
 -----------
 
 
+#############################
+# Different Cryptocurrencies
+#############################
 
+## Why so many cryptocurrencies?
+Alternative coins that are not Bitcoin
+
+Why?
+- Protocol difference
+- Technology difference
+- Purpose and use
+
+- check rankings
+https://coinmarketcap.com/
+
+
+##########
+# Bitcoin
+##########
+Purpose: a means of payment / store of value => same as HKD or INR currency
+
+- developed by Satoshi Nakamura in 2009 (hidden identity - none knows who he is)
+- its like USD of cryptocurrencies
+- biggest, most trusted and most used cryptocurrency
+- deflationary: means that no affect of any inflation as only 21 million Bitcoins are there
+- huge community
+- extremely secure
+
+beware:
+- if anyone loses her secret key for digital signature - all her bitcoins will be lost if she had earned bitcoins using that secret key
+- there has been several cases like losing the secret key and people have lost millions (ex. saved in laptop and laptop hard disk is corrupted and wiped)
+
+# Protocol:
+- non-reversible transactions
+- hash functions and digital signature cryptography
+- P2P (peer to peer) network
+- Proof of work (POW) mining - need Asic Miner machine for mining
+- 21 million maximum supply
+
+# Cons:
+- slow transfer time
+- sometimes high transaction fees
+- long time to implement new technologies
+- mining machines consume huge amount of resources / electricity
+
+
+
+###########
+# Ethereum
+###########
+A platform to run Dapps
+
+- developed by Vitalik Buterin in 2013
+- ETH is a platform - enables user to create their own crypto and run it on the ETH blockchain
+- allows developers to create Decentralized applications (Dapps)
+- enables Smart Contracts
+- Creating of tokens
+- Fast(ish) transfer time (15 seconds block time)
 
 
 
