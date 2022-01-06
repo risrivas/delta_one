@@ -1,0 +1,58 @@
+####################
+# Table of Contents
+####################
+
+# Currencies
+- History of money
+- Forex market
+- Quotation system
+
+# Forex Trading
+- Lots/Pips
+- Leverage and Shorting
+- Brokers/Orders
+- Platforms and Charting softwares
+- Technical Analysis: Charts/Candlesticks/Trends/Patterns/Indicators
+- Fundamental Analysis
+
+# Risk Management / Money Management
+- protecting your account
+- calculating position size
+- entries and exits
+
+# Live Trading
+- live trades
+- trade analysis
+- recording and analyzing Historical trades
+
+# Trading Psychology
+
+
+###################
+# History of money
+###################
+6000 BC = Barter
+700 BC = Gold
+618-907 AD = Paper Bills
+1879 AD = Gold Standard
+1944 AD = Bretton Woods
+1971 AD = End of Gold Standard
+
+
+## Barter and Gold
+- Barter system: exchange goods
+for ex: a farmer has apples to sell and he wants to get clothes in return
+basic flaw: to exchange apples with someone selling clothes => what if cloth seller do not want to buy apples in exchange of clothes
+
+=> need for a common unit of exchange
+this unit needs to:
+- be used as a medium of exchange
+- store value
+- be a unit of value
+
+Unit has to be:
+- scarce
+- hard to harvest
+- durable
+
+
