@@ -1,0 +1,77 @@
+###############
+# Introduction
+###############
+Financial Derivatives: A Quantitative Finance View
+
+# Finance: What do we think of when we think of this word?
+Money
+Banks
+Loans
+Pensions
+Mutual Funds
+Hedge Funds
+
+- Common theme: Investments
+- Investing is the branch of finance with which we are most concerned
+
+
+# What is investing?
+The process of taking an ownershp position in an asset with the goal of receiving a positive return
+by appreciation of the asset value
+
+
+# Financial Products
+- Some common synonyms used in finance:
+Investment Assets
+Investment Products
+Investment Vehicles
+
+=> financial products are assets suitable for investments
+
+- Financial Products are a huge universe of assets, divided into 2 classes:
+Cash Products = stocks, bonds, currencies, commodities
+Derivatives = forwards, futures, swaps, options
+
+# Derivatives
+A derivative is an asset linked to (or "derived" from) another asset, called the underlying
+
+- the structure and value of the derivative asset is defined by its relationship to the underlying
+
+
+# Value
+- consider 2 notions of financial value:
+1. Price: determined on markets
+2. Fair value: this corresponds to the "correct value"
+
+- it is connected to concepts like:
+time value of money
+discounted cash flow analysis
+arbitrage
+
+
+# Arbitrage
+Arbitrage is a relative valuation method, and is the ideal tool for determining the relationship
+between the value of a derivative asset and the value of its underlying
+
+
+# Fundamental derivative structures:
+- Forwards and futures are contracts that lock in the price, 2 parties will buy and sell an asset
+for at some future date; the traded asset is the underlying
+
+- Options are similar to forwards but one party has the right not to participate at the time
+the contract expires
+
+- Swaps are linked to interest rates, allowing a floating interest rate to be switched to a fixed rate;
+the underlying asset is an interest rate
+
+
+# Risk
+- Risk is the chance or possibility of suffering financial loss, for instance,
+losing money on an investment
+
+- One of the purpose (or even justifications) of derivatives is to serve as risk management tools
+
+
+#################
+# Interest Rates
+#################
