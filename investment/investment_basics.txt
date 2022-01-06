@@ -881,10 +881,54 @@ https://www.etfreplay.com/combine.aspx
 # Bonds
 ########
 
+Bond screener:
+https://markets.businessinsider.com/bonds
+
 ## Introduction
+- A bond is a debt security => think of it as a loan
+- Bonds are issued by governments and corporations
+- as a holder of a bond, you are entitled to interest payments from the issuer
+
+- Government may issue bonds to public if they need money
+- similarly, corporations (say Apple) will need money and they dont want to distribute shares / equities
+
+# Terms
+- Face value: the amount received at maturity => also called Principal or Par Value
+- Maturity Date: the term by which you get your principal back
+- Coupon Rate: the interest rate received per year on the principal
+- Price: the market price of the bond
+- Discount Rate: the interest rate used in the bond pricing formula;
+  this is also called Yield to Maturity
+  as it's the return an investor would make if the bond is held until maturity
+
+# Bond Calculation Example
+- suppose you want $10K for house renovation
+- you will go to bank
+- bank will check your credit and ensure that you can pay them back
+- it will create a contract which contains
+face value = 10K
+maturity date = 5 years
+coupon rate = 5% or $500 every year
+- you sign it and return to bank
+- this contract may also be called as IOU
+- or, you have just sold a Bond to the bank
+Face value: $10K
+Maturity Date: 5 years
+Coupon Rate: 5%
+Price: $10K
+Bond Yield: 5%
 
 
+# Present value
+- say after 1 year = $100
+- its present value - if 5% interest rate
 
+PV = FV / (1 + rate)^Time
+= 100 / 1.05
+= $95.238
+
+- Bond can be extremely complex
+- but important to understand is the interest rate fluctuations can change bond's price
 
 
 

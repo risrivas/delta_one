@@ -55,4 +55,6 @@ Unit has to be:
 - hard to harvest
 - durable
 
+=> Gold was used in 700 BC to be that unit
+
 
