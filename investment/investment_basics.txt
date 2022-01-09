@@ -931,6 +931,32 @@ PV = FV / (1 + rate)^Time
 - but important to understand is the interest rate fluctuations can change bond's price
 
 
+# Bond Types and Risks
+
+Types:
+- Government and Corporate
+- Short term bonds - 1 to 4 years
+- Long term bonds - 10 to 30 years
+
+Risks:
+- Default of the issuer (Government -> Corporate -> Junk)
+- Credit Quality
+- Interest Rates
+
+
+# Bonds: Duration
+- the time weighted average of the present value of future cash flows
+- it is also a mesaure of sensitivity to a bond's price relative to interest rate changes
+- example
+a bond with a 6-year duration will see its price increase by 6% for each 1% drop in interest rates
+if interest rate increase by 1%, that same bond will see its price drop by 6%
+
+
+
+
+
+
+
 
 
 
