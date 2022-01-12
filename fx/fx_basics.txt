@@ -58,3 +58,93 @@ Unit has to be:
 => Gold was used in 700 BC to be that unit
 
 
+## Paper money / Paper Bills
+- Problems with Gold
+can be debased - melt it, change it and create multiple sized coins
+fluctuates based on supply (ex: https://en.wikipedia.org/wiki/California_Gold_Rush)
+hard to transport
+issues with having multiple denominations
+limited supply
+
+- Paper Money
+first used by the Chinese (619-907)
+Eurpoeans started using only in 17th century
+paper money was just an IOU
+IOU are exchanged at local banks
+
+- IOU
+people go to a local bank - deposit their gold - get IOU (paper) in return
+now they can use this IOU to purchase in the market
+
+- Fractional Reserve Banking
+the gold deposited can be rented out or given as loan to earn interest
+same happens today also - amount deposited in bank accounts - banks use that for own banking purpose
+
+issue:
+- if 50% of the gold coins are loaned out and all the people who deposited come back and ask for their gold coin
+- bank is defaulted as it does not have 50% of gold
+
+- Central Banks
+first bank - Bank of England - 1694
+Central Bank Notes valued better than other bank notes
+Regulation for no new banks to print bank notes and closed banks to remove their notes from circulation
+This leaves the central bank's notes as the only ones in the country
+
+
+## Gold Standard
+- The Gold Standard is a system that backs it's currency with gold
+- US adopted the system and one ounce of gold could be traded for $20.67
+- This limits the governments and banks to excessively issue paper currency (and cause huge inflation),
+  since the currency has to be backed by gold
+
+
+## Bretton Woods
+- change in the Gold Standard
+After world war 1 (1914) and the great depression (1929)
+In 1930s the UK abd the US stopped redeeming Cash (done under Roosevelt) for gold coins
+Main reason: not enough gold to back the amount of currency they wanted (wanting to increase the money supply)
+What tool place? FIAT currency: "a term to describe currency that is used because of a government's order"
+At this point the dollar was "floating"
+
+- issue
+suppose China prints lot of yuan currency and devaluates it as compared to US dollars
+now as dollars has much more value in China as its much stronger than yuan - China can easily boost its exports
+because many US people will start buying China goods as its cheaper for them
+
+- Bretton Woods agreement
+Cause: fear of countries devaluating their currencies (to boost exports)
+In 1944, 44 countries meet in Bretton Woods, New Hampshire
+Decision: all currencies linked to the US Dollar and the dollar linked to Gold
+(as US had most amount of Gold that time in the world)
+
+- creation of IMF (International Monetary Fund): IMF will lend money to countries in need
+- creation of the World Bank: to help under-developed countries to grow
+
+
+## End of the Gold Standard
+- on 15-Aug-1971, US President Nixon declared that USD is not going to give back gold to other countries
+reason: US printed so many USD that it was not as worth as actual gold they had
+meaning, gold had much more value than USD and thus USD should be delinked from gold
+
+
+## Money functions
+- medium of exchange
+- store of value
+- unit of value
+
+- should be scarce (cryptocurrency are scarce)
+- durable
+
+- problem with cryptocurrency is that its not unit of value
+as it price fluctuates every moment
+
+
+############################
+# Forex Market & Quotation
+############################
+
+
+
+
+
+
