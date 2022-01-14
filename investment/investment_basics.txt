@@ -952,6 +952,38 @@ a bond with a 6-year duration will see its price increase by 6% for each 1% drop
 if interest rate increase by 1%, that same bond will see its price drop by 6%
 
 
+# Why invest in bonds?
+- stable income
+- portfolio -> diversification
+- when market crashes, govt decreases interest rate => stocks goes down, bonds price goes up
+
+
+## Bond ETFs and Index Funds
+check on ETF database: https://etfdb.com/
+
+- BND, LQD, JNK, BSV, BLV, SHV, IEF, TLT
+
+- ETF can be bought / sold instantly using brokerage account but for mutual finds - need to wait till market close
+
+compare on
+- JNK ETF bonds contain lost of Junk companies
+- LQD - good corporations
+- SHV - govt bond - short term
+- IEF - govt bond - medium term
+- TLT - govt bond - long term
+
+- Article:
+https://www.theglobeandmail.com/featured-reports/article-the-market-crash-has-investors-rethinking-their-bond-etfs/
+
+# Bonds vs Bond ETFs/Funds
+Pros:
+- we know exactly how much we will be getting if hold to maturity
+- return of principal and fixed income
+Cons:
+- requires more capital
+- less diversification
+
+
 
 
 
