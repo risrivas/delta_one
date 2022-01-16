@@ -984,6 +984,59 @@ Cons:
 - less diversification
 
 
+#########################
+# Traditional Portfolios
+#########################
+
+## Balanced Portfolios
+- %age of money invested in bonds and stocks
+- older people with less risk appetite should put more on bonds and vice versa
+- more bonds means less risk / volatility / standard deviation
+
+## Asset allocation by age
+- Rule of thumb:
+Do 100 minus your age to get the %age of portoflio in stocks
+so, if 40 years of age => 60% of portfolio should be in stocks
+In other words, your age = %age in bonds
+
+- other formula:
+(Age-40) * 2 => %age in bonds
+so until 40 years of age - invest only in stocks
+
+## Rebalancing Benefits
+- when market crashes => sell bonds and buy stocks - catch is buy only those stocks which you think will survive and go up in future
+- when market is going up => sell stocks and buy bonds to get back to original %age (money)
+example:
+$100 - $70 in stocks and $30 in bonds
+market crashes and stocks value is now $50 => sell $20 bonds and buy stocks of $20
+market goes up and stocks value is $80 => sell $10 stocks and buy $10 bonds back
+
+## Security selection benefits
+- just a single change of selection of etf / stock / bond can drastically change the returns and risks
+
+## Tactical asset allocation benefits
+- change the stock-bond %age allocation (quantity)
+example:
+$100 - $70 in stocks and $30 in bonds
+market crashes and stocks value is now $50 => reduce target of stocks to 50% ie $50 and buy $20 more bonds
+market goes up and stocks value is $80 => sell $10 bonds and maintain 80%-20% stock bond ratio
+
+
+############################################
+# Commodities and other investment products
+############################################
+
+# Gold and Gold ETFs
+Reasons to buy gold:
+- limited supply
+- positive historical performance
+- add diversification => negatively correlated to the stock market
+- considered as a safe haven
+
+
+
+
+
 
 
 
