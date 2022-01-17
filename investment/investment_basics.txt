@@ -1033,6 +1033,41 @@ Reasons to buy gold:
 - add diversification => negatively correlated to the stock market
 - considered as a safe haven
 
+- having un-correlated or negatively correlated products in portfolio is useful
+because say, if stock market is going down but gold price is getting higher,
+we can sell gold and buy cheaper stocks (which we think will rise later)
+
+# Gold ETFs
+- IAU, SGOL
+https://etfdb.com/etf/IAU/#etf-ticker-profile
+https://etfdb.com/etf/SGOL/#etf-ticker-profile
+
+# Other products
+- Silver ETF
+SLV
+
+- Commodity ETFs
+GSG, DBC
+
+- Bitcoin (more details in Cryptocurrency notes)
+
+# Emerging Markets ETFs
+- countries which are developing
+EEM, IEMG
+
+
+####################
+# Modern Portfolios
+####################
+- 2 useful sites
+https://portfoliocharts.com/
+http://www.lazyportfolioetf.com/
+
+- go to various examples / top listed portfolios:
+https://portfoliocharts.com/portfolios/
+
+- Ray Dalio All Weather Portfolio
+http://www.lazyportfolioetf.com/allocation/ray-dalio-all-weather/
 
 
 
