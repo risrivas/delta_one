@@ -1066,8 +1066,43 @@ http://www.lazyportfolioetf.com/
 - go to various examples / top listed portfolios:
 https://portfoliocharts.com/portfolios/
 
-- Ray Dalio All Weather Portfolio
+
+## Ray Dalio All Weather Portfolio (less risky)
 http://www.lazyportfolioetf.com/allocation/ray-dalio-all-weather/
+https://portfoliocharts.com/portfolio/all-seasons-portfolio/
+
+- It's a Medium Risk portfolio and it can be replicated with 5 ETFs:
+Weight    Ticker    ETF Name                                     Investment Themes
+30.00 %   VTI     Vanguard Total Stock Market                Equity, U.S., Large Cap
+40.00 %   TLT     iShares 20+ Year Treasury Bond             Bond, U.S., Long-Term
+15.00 %   IEI     iShares 3-7 Year Treasury Bond             Bond, U.S., Intermediate-Term
+7.50 %    GLD     SPDR Gold Trust                            Commodity, Gold
+7.50 %    GSG     iShares S&P GSCI Commodity Indexed Trust   Commodity, Broad Diversified
+
+- Asset Allocation:
+30% Total Stock Market
+40% Long Term Bonds
+15% Intermediate Bonds
+7.5% Commodities
+7.5% Gold
+
+- Backtest it:
+https://www.portfoliovisualizer.com/backtest-portfolio
+
+
+#######################################
+# Building and Buying a Portfolio LIVE
+#######################################
+
+# Logging in your brokerage account
+
+- example of Interactive Brokers
+https://www.interactivebrokers.com/en/index.php?f=1338
+
+- IB offers 3 ways to login and trade
+Desktop Workstation (most popular way)
+Web Browser
+Mobile App
 
 
 
