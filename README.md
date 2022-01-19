@@ -1,25 +1,28 @@
 # delta_one
 
-### Index Arbitrage
-* Index Arbitrage Basics
-* Index Arbitrage In Depth
-* Index Arbitrage In Banks
+### [Investment] (https://github.com/risrivas/delta_one/tree/main/investment)
+* Investment Basics - *in progress*
 
-### Investment
-* Investment Basics
+### Forex Trading (https://github.com/risrivas/delta_one/tree/main/fx)
+* Basics - *in progress*
 
-### Crypto Currency
-* Basics
-* Advanced
+### Crypto Currency (https://github.com/risrivas/delta_one/tree/main/cryptocurrency)
+* Basics - *in progress*
+* Advanced - *in progress*
 
-### Stock Trading
-* Basics
-* Advanced
+### MFE (https://github.com/risrivas/delta_one/tree/main/mfe)
+* Fundamentals - *in progress*
+* Arbitrage - *in progress*
+* Forwards, Futures, Swaps - *in progress*
+* Stochastic Processes and Asset Prices - *in progress*
+* Options - *in progress*
 
-### Forex Trading
-* Basics
+### Stock Trading (https://github.com/risrivas/delta_one/tree/main/stock_trading)
+* Day Trading Basics - *in progress*
+* Day Trading Advanced - *in progress*
+* Swing Trading Basics - *in progress*
 
-### MFE
-* Complete summary of financial engineering
-
- 
+### [Index Arbitrage](https://github.com/risrivas/delta_one/tree/main/indexarb)
+* Index Arbitrage Basics - *in progress*
+* Index Arbitrage In Depth - *in progress*
+* Index Arbitrage In Banks - *in progress*
