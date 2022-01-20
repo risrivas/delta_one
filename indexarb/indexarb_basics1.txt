@@ -1,0 +1,107 @@
+################
+# Introduction
+################
+# A relevant hedge example would be the purchase of a basket of stocks that are expect to "outperform" their associated index
+  and the sale of the index future;
+  the converse case is the short sale of "underperforming" stocks (or the sale of their "single stock" futures)
+  and the purchase of the index futures
+
+# How Knowledge of Index Arbitrage Can Assist Investment Timing
+- Knowledge of the price of an index future and its associated "spot" index relative to each other can be
+  indicative of future index arbitrage program trading activity
+- Even if the future-spot index difference indicates a program trade would be profitable for arbitrageurs,
+  there is no certainty that it would be executed; nevertheless, it would be indicative of the current market bias
+- If you are a long term investor whose investment horizon exceeds one year, you can ignore index arbitrage conditions
+  because the attendant long term market and economic factors will be greater determinants of your investment success or failure
+
+# Instruments used:
+- Stocks
+- Exchange Traded Funds (ETFs)
+such as SPDR (Spiders), QQQ (Cubes), or DIA (Diamonds)
+- Index futures
+such as the S&P 500, NASDAQ 100, or Dow Jones Ind. Avg.
+or the e-mini or mini versions of these
+- Options on stocks or indexes
+
+
+#############################
+# IndexArb Terms Description
+#############################
+# What are Fair Value, Sell Active, Sell Threshold, Buy Threshold, and Buy Active?
+# When do sell programs and buy programs occur?
+
+- Index arbitrage is a form of program trading activity that can produce sudden and possibly sharp market movements
+
+- Investors could benefit from knowing the conditions under which program trades might occur by either avoiding trades
+  in the opposite direction or taking trades in the same direction
+example:
+if conditions indicate that a "sell" program is imminent or about to happen,
+an investor might wish to defer a stock or call option purchase until the futures and equities markets have returned to equilibrium
+and the sell program conditions no longer exist
+
+Conversely,
+if buy program conditions exist,
+an investor could proceed to execute a stock or call option purchase and possibly benefit from a rising market caused by the buy program
+
+# There are two types of index arbitrage programs: sell and buy
+- "Buy programs" occur when the futures market is over-valued relative to the stock market
+and consists of the index futures being sold and the stocks in the index being bought => most common scenario in banks
+
+- "Sell programs", the opposite case, occur when the futures market is under-valued relative to the stock market
+and consists of the index futures being bought and the stocks in the index being sold.
+
+- Over-valued and under-valued conditions arise because trading in the futures and equities markets occurs independently
+
+
+# Premium / Basis / Spread
+Index arbitrage program trades are triggered
+when the arithmetic difference between an index's futures contract price and the index's spot (or current) price reaches an over or under-valued extreme
+This arithmetic difference is known by the various names of premium, basis or spread
+
+- example:
+calculation of premium:
+if the S&P 500 futures contract price is 1409 and the S&P 500 spot index is 1400, the premium is 9
+
+- Whether this particular premium has bearish or bullish implications depends on whether it falls in the range of sell programs, no programs, or buy programs
+- These program ranges are delineated by the five premium values of sell active, sell threshold, fair value, buy threshold, and buy active,
+- These five significant values are mathematically determined; an equation for "fair value"
+
+NOTE: details on "Futures Fair value" is provided later
+
+
+################
+# Sell Programs
+################
+- A sell program is the simultaneous (short) sell of all (or almost all) the stocks in the index (in weighted proportions)
+and the purchase of the index's futures contract
+- If the sell program is of sufficient magnitude, the stocks comprising the index will decline and,
+correspondingly, the index's futures contract will rise, producing the effect of a stock market decline and a futures market rise
+
+- A sell program condition arises when the "futures - spot" premium shrinks significantly below fair value
+
+- This can happen because the futures and equity markets move independently and,
+in this case, either the futures contract has moved sufficiently lower
+and/or the spot index has moved sufficiently higher, relative to each other
+=> The spot index moves higher when one or more stocks in the index increases
+
+- If the resulting, shrunken premium reaches the sell threshold,
+an index arbitrageur can capture a riskfree profit by executing a sell program
+
+- The short stock position and long futures position can be held either to the futures' settlement (expiration) date
+(at which time the premium imbalance is contractually guaranteed to have disappeared)
+or to an earlier date when the premium imbalance has disappeared due to market action
+
+- In a typical sell program, the stock sales are "short" sales
+The resulting proceeds are invested in fixed income instruments whose interest belongs wholly or partially to the arbitrageur,
+according to a pre-arranged short interest rebate agreement with the stock lender
+
+
+
+
+
+
+
+
+
+
+
