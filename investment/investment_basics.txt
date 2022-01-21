@@ -1079,6 +1079,8 @@ Weight    Ticker    ETF Name                                     Investment Them
 7.50 %    GLD     SPDR Gold Trust                            Commodity, Gold
 7.50 %    GSG     iShares S&P GSCI Commodity Indexed Trust   Commodity, Broad Diversified
 
+- GLD - may be use SGOL
+
 - Asset Allocation:
 30% Total Stock Market
 40% Long Term Bonds
@@ -1103,6 +1105,64 @@ https://www.interactivebrokers.com/en/index.php?f=1338
 Desktop Workstation (most popular way)
 Web Browser
 Mobile App
+
+- Can buy stock (AAPL) or ETF (VTI)
+
+- example of a portfolio - small changes in all weather portfolio:
+30% Total Stock Market - VTI - change to 45%
+40% Long Term Bonds - TLT - change to 25%
+15% Intermediate Bonds - IEI - same
+7.5% Commodities - GSG - change to 0
+7.5% Gold - GLD - change to 15%
+
+- when the stock market crashes, may be Gold and Bonds price rises
+=> sell Gold and Bonds and purchase VTI
+and vice-versa
+
+- rebalance the portfolio every day after US market close
+buy cheap ETF - sell rising ETF => thus maintaining the same allocation
+
+- After every month when salary comes - put some more money in your portfolio and rebalance
+
+
+#########################
+# Other Important Topics
+#########################
+
+# Security Selection
+- although VTI or SPY already have your favorite stocks (say AAPL, GOOGL)
+you can chose to invest in stocks but its more risky
+
+# Taxes
+- every country has rules on taxes - it will have huge impact on your brokerage account / portfolio
+- so chose a brokerage account which has minimum tax levied in your country
+
+# Defined contribution plan
+- almost all companies pay for your Provident Fund account
+- in HK companies, 5% of salary is contributed to PF by the employer
+
+# Personal Finances and Expenses
+- very important point how much salary you should reinvest in portfolio
+- rule of thumb is not more than 15% of your salary every month
+- so make an excel with all these details and check every month
+Income: 50K
+Portfolio: 50K
+Expense that month: 15K
+Percentage reinvestment: 10% = 5K
+
+if the expense is much more than your average and you also forecast more expenses in coming months
+for ex: daugheter going to new school, moving to a new house, etc
+then reduce your reinvestment in portfolio or no reinvestment - actually its more of a common sense :)
+but always better to check your expenses every month - this will help to figure your cash flow and better money management
+
+# Financial Tracking
+- best official site is:
+https://mint.intuit.com/
+
+- so instead of using excel or manual techniques, just learn how to use mint site
+https://mint.intuit.com/how-mint-works
+
+
 
 
 
