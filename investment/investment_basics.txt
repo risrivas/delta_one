@@ -32,7 +32,7 @@
 - Retire with more money
 - example:
 If invest 15% of income every year on an index fund (say S&P 500 index),
-the profits are much more than 40 years of work and salary saved!
+the profits are much more than 40 years of work and salary saved in a bank account!
 
 - To make a big purchase: buy house, car, wedding, travel the world, etc
 
@@ -50,6 +50,7 @@ example:
 a pizza which was 5 dollars 6 years back will cost 10 dollars today
 
 - each country has yearly some %age of inflation rate
+reason of inflation is government always prints more money decreasing its value
 example:
 USA and Canada has around 2% of inflation rate per year
 
