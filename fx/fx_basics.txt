@@ -69,7 +69,7 @@ limited supply
 - Paper Money
 first used by the Chinese (619-907)
 Eurpoeans started using only in 17th century
-paper money was just an IOU
+paper money was just an IOU (I Owe You)
 IOU are exchanged at local banks
 
 - IOU
@@ -77,7 +77,7 @@ people go to a local bank - deposit their gold - get IOU (paper) in return
 now they can use this IOU to purchase in the market
 
 - Fractional Reserve Banking
-the gold deposited can be rented out or given as loan to earn interest
+the gold deposited can be rented out or given as loan to earn interest by the banks
 same happens today also - amount deposited in bank accounts - banks use that for own banking purpose
 
 issue:
@@ -87,7 +87,7 @@ issue:
 - Central Banks
 first bank - Bank of England - 1694
 Central Bank Notes valued better than other bank notes
-Regulation for no new banks to print bank notes and closed banks to remove their notes from circulation
+Regulation for no new banks to print bank notes and closed local banks to remove their notes from circulation
 This leaves the central bank's notes as the only ones in the country
 
 
@@ -103,7 +103,7 @@ This leaves the central bank's notes as the only ones in the country
 After world war 1 (1914) and the great depression (1929)
 In 1930s the UK abd the US stopped redeeming Cash (done under Roosevelt) for gold coins
 Main reason: not enough gold to back the amount of currency they wanted (wanting to increase the money supply)
-What tool place? FIAT currency: "a term to describe currency that is used because of a government's order"
+What tool replace? FIAT currency: "a term to describe currency that is used because of a government's order"
 At this point the dollar was "floating"
 
 - issue
@@ -142,6 +142,14 @@ as it price fluctuates every moment
 ############################
 # Forex Market & Quotation
 ############################
+
+# How to make money
+example:
+- Suppose you are living in US and go to Mexico for vacation for 5 days
+- at airport, you convert $100 to 2000 pesos (1 USD -> 20 pesos)
+- if you still have 2000 pesos while returning, and pesos strengthens its value (1 USD -> 16 pesos)
+- then USD to get back is 2000 / 16 = 125 USD
+- profit = 25 USD
 
 
 
