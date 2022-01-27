@@ -151,6 +151,30 @@ example:
 - then USD to get back is 2000 / 16 = 125 USD
 - profit = 25 USD
 
+# Currency Pairs
+- Currency Pair: quoting one currency against another
+- Base Currency: the first currency listed
+- Quote Currency: the second currency listed
+- Each currency is identified by its ISO Currency code
+- ISO stands for International Organization for Standardization - code is 3 letter alphabetic code
+https://en.wikipedia.org/wiki/ISO_4217
+
+- example: Currency Pair USDCAD = 1.35
+USD is base currency
+CAD is quote currency
+
+this is the Quote for the USD against Canadian dollar
+=> means, 1 USD can be changed for 1.35 CAD
+
+
+
+
+
+
+
+
+
+
 
 
 
