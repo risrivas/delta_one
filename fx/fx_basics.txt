@@ -167,6 +167,65 @@ this is the Quote for the USD against Canadian dollar
 => means, 1 USD can be changed for 1.35 CAD
 
 
+# Major Pairs and Cross Pairs
+- based on liquiidity, major currencies:
+USD
+EUR
+JPY
+GBP
+AUD
+CAD
+CHF
+
+- major pairs
+GBP/USD (the cable)
+USD/CAD (Loonie)
+AUD/USD (Aussie)
+USD/CHF (Swissy)
+USD/JPY
+EUR/USD
+NZD/USD
+
+- there is a rule that which currency gets priority to be the base currency:
+EUR
+GBP
+AUD
+NZD
+USD
+CAD
+CHF
+JPY
+
+- pairs that do not include USD => called as Cross Pairs
+example: CAD/JPY
+
+
+# Market Structure
+- Transactions are done OTC (over the counter)
+- there is no cnetral exchange to trade on
+- because its OTC, execution prices will vary
+
+- The interbank market is where banks exchange currencies with one another
+- they can do this by transacting directly through EBS (Electronic Broking Services)
+or Thompson Reuters who are the two electronic brokering platforms at this level
+- this is only available to very large banks - like JP Morgan, HSBC, GS, MS, ML, DB, UBS, etc
+
+- the players:
+FX Dealers (large banks)
+Other Large Participants (hedge funds, etc)
+forex brokers and retail ECNs
+
+
+#####################
+# FOREX Terminology
+#####################
+
+
+
+
+
+
+
 
 
 
