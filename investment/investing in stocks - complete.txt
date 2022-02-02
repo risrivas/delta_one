@@ -1,0 +1,77 @@
+###############
+# Introduction
+###############
+- Can I make money in stocks ?
+Historically stock markets tend to go up over the long-term
+
+- Good resource for historical portfolios analysis
+https://investor.vanguard.com/investor-resources-education/education/model-portfolio-allocation
+
+- Compound Interest Calculator
+http://moneychimp.com/calculator/compound_interest_calculator.htm
+
+- Worst case scenario
+Stock Market Crash of 1929 - Great Depression
+1929-39 = Great Depression
+1929-45 = Great Depression + WWII
+
+- how bad was it?
+DJIA on Black Monday and Black Tuesday
+28-Oct-1929 = % change -12.82
+29-Oct-1929 = % change -11.73
+
+- Compound Annual Growth Rate (Annualized Return)
+http://www.moneychimp.com/features/market_cagr.htm
+
+
+# Two ways investors make money
+- Growth - Capital Appreciation
+Buy Low & Sell High
+Trade (I buy you sell)
+Beware - stocks can go down and never recover
+
+- Dividends
+Regular passive income
+Quarterly payout
+Thank you for holding stock/owner
+Beware - dividend cut or elimination
+
+- Combination
+Growth Stock
+Dividend Payer
+
+
+# Investing vs Trading vs Gambling
+- Investing
+Long-Term Play
+For specific goals
+Have a plan - stick to it
+Rebalance as needed
+Can succeed with basic principles over time
+
+- Trading
+Fun
+Takes a lot of work
+More money - diversified (20-30 stocks) + more transaction fees
+Behavioral issues - willing to sell losers, winners
+Succeed by personal skill
+
+- Gambling
+Fun
+Expect to lose (casino particularly)
+Limit loss (only money in pocket)
+Is Day Trading gambling?
+
+
+# What is a Stock?
+- Common Stock (Public company)
+Owner
+Claim on company assets and earnings
+Publically sold on a market
+ NYSE, Nasdaq
+ DJIA (30 USA), Nikkei (225 Japan)
+Voting rights
+Not involved with day to day operations
+Better performance vs other investments in the long-run
+
+
