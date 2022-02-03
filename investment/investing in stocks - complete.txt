@@ -75,3 +75,145 @@ Not involved with day to day operations
 Better performance vs other investments in the long-run
 
 
+# Where do stocks fit in a diversified portfolio?
+Consider:
+- how far away is the goal
+- your risk tolerance
+- need (income/growth/combo)
+
+
+# Sample Portfolio Allocation
+Vanguard Sample Allocation
+- Average annual return
+- Best year
+- Worst year
+- # Years with a loss
+- Large cap stocks / bonds / treasury's
+
+https://investor.vanguard.com/investor-resources-education/education/model-portfolio-allocation
+
+- many people prefer 70-80% stocks and 20-30% bonds or fixed income
+- if 100% stocks - then should have 20-30 stocks in portfolio
+
+
+########################
+# Stocks categorization
+########################
+
+# Stock diversification options
+- Size categories: small cap / mid cap / large cap
+- Style: Growth / Income (Value)
+- International
+- Sectors
+
+
+# Size categories: small cap / mid cap / large cap
+- cap = stock price * number of shares (float)
+- general cap ranges:
+large cap = $10B+
+mid cap = $2-10B
+small cap = < $2B
+
+- why care?
+Portfolio composition
+Diversity inside the asset class
+Reduce risk
+Narrow research
+
+
+# How are stocks organized?
+- Size
+- Style
+- Sector
+
+# Style: Growth Stocks
+- High-fliers that keep climbing
+- Earnings grow faster than industry and market
+  Revenue and/or cash flow
+  Higher Price to Earnings (P/E)
+  Higher Price to Sales
+- Typically no dividend and focus on re-invest cash in growing company
+- Example: Google
+- most technology stocks are growth stocks
+
+# Style: Income Stocks
+- Pay a dividend (income)
+- Still want growth
+  price increase
+  dividend increase
+- example: Coca-Cola
+- Sometimes labeled Value stocks
+  Mutual fund style box to differentiate from Growth
+  Value more an investment strategy
+  Find undervalued stocks with a lower price relative to a companies true value
+
+# Style: Value Stocks
+- Many times associated with Income
+- Lower price relative to fundamentals
+- "Bargain Hunting"
+- Great companies at discounted rates
+- Higher long-term gain
+- Greater risk
+- May just be a dog and never recover
+
+
+# Sectors
+- What part of the economy
+- What is ther primary business
+- Important for comparison to competitors (Ratios)
+- Example: Health Care
+  Pharmaceutical (Merck)
+  Medical Devices (Medtronic)
+  Amgen (Bio Technology)
+
+- Companies tend to move in concert with their sector
+- Compare
+Vanguard Energy Index (VENAX)
+S&P 500
+Exxon (XOM)
+
+- The Global Industry Classification Standard (GICS) defines these 11 sectors:
+  - Energy
+  - Materials
+  - Industrials
+  - Consumer Discretionary
+  - Consumer Staples
+  - Health Care
+  - Financials
+  - Information Technology
+  - Communication Services
+  - Utilities
+  - Real Estate
+
+
+
+#####################
+# Understanding Risk
+#####################
+- The chance that you buy a stock and the price goes down => reducing your profit
+- Risk = Reward
+- Increase Risk = Increased Reward
+- Decrease Risk = Decreased Reward
+
+- Big questions:
+Can we measure risk?
+Are there ways to measure if one stock is "riskier" than another?
+Is it worth it to take on more risk to get that reward (investing profits)?
+
+- Compare and evaluate different stocks
+- More than a "gut feel" or rule of thumb:
+e.g. Technology stocks are riskier than Utilities? - need to check if statistically true
+- Give us a feel for volatility
+
+# Volatility
+- the degree to which a stock's price moves
+- a stock with a price that fluctuates wildly - wide range of highs and lows or
+moves erratically - is considerd highly volatile
+- a stock that maintains a relatively stable price has low volatility
+
+
+
+
+
+
+

@@ -629,7 +629,7 @@ https://finviz.com/map.ashx?t=sec
 -----------------------------------
 
 ## Sector: Consumer Staples
-- household goods that public buy for their daily needs irrespective of economuy going up or down
+- household goods that public buy for their daily needs irrespective of economy going up or down
 - like toothpaste, cosmetics, ration, grocery, alcohol etc
 - consumer staples are noncyclical and thus are relatively stable
 - these sectors have some ETFs like: XLP, FSTA (in USA)
