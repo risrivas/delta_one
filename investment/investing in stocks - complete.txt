@@ -211,6 +211,139 @@ e.g. Technology stocks are riskier than Utilities? - need to check if statistica
 moves erratically - is considerd highly volatile
 - a stock that maintains a relatively stable price has low volatility
 
+# Standard Deviation
+- Statistically, SD measures the dispersion of data from its expected value
+- For stocks, mutual funds and ETFs, it indicates how much the current return is deviating from its expected historical normal returns
+- a stock that has high SD experiences higher volatility and thus, a higher level of risk is associated with the stock
+- Key takeaway:
+higher the SD, the greater the possible outcomes, high and low, thus more volatility
+
+- example:
+Vanguard S&P 500 Index ETF (VOO) => SD = 5.31
+Vanguard Wellesley Fund (VWINX) Balanced Fund 40% stocks, 60% Bonds => SD = 2.22
+Fidelity IT Services Fund (FBSOX) concentrated tech  => SD = 6.46
+
+- Formula for SD
+sq root of ( sum(xi - X)**2 / (n-1) )
+
+xi = ith point in the data set
+X = mean or average
+n = number of points in the data set
+
+1. calculate mean = add all data points and divide by n
+2. calculate variance = subtract mean from the value of the data point then square it and take the whole summation => then divide by n-1
+3. SD is sq root of variance
+
+
+# Sharpe Ratio
+- SR adjusts a portfolio's past performance - or expected future performance - for the "excess risk" that was taken by the investor
+- US treasury bond or T-Bill can never default
+- thus, removing the rate of return on "risk-free" investment (like T-Bill) from the experienced rate of return
+- Think, I can make X with a risk-free investment, am I getting the extra return by taking on more risk and by how much
+
+- Key Takeaway
+SR above 1.0 is good because you are getting excess returns relative to its volatility
+
+- Formula for SR
+(Rp - Rf) / SD
+
+Rp = return of portfolio
+Rf = risk-free rate
+SD = standard deviation of the portfolio's excess return
+
+1. Subtract the risk-free rate from the return of the portfolio
+risk-free rate could be a US Treasury rate or yield, such as the one-year or two-year Treasury yield
+
+2. Divide the result by the SD of the portfolio's excess return.
+SD helps to show how much the portfolio's return deviates from the expected return
+SD also sheds light on the portfolio's volatility
+
+- example:
+Mutual Fund returned 15% over the last year
+Current risk-free rate (T-Bill) is 3.5%
+SD = 12%
+SR calculation = (15 - 3.5) / 12 = 95.8% or 0.958
+Since less than 1.0 => not a great SR
+Conclusion is you are taking on more risk relative to returns
+
+# Sortino Ratio
+differs from the Sharpe Ratio in that it only considers the SD of the downside risk, rather than that of the entire (upside + downside) risk
+
+- Formula for Sortino Ratio
+(Rp - Rf) / SD
+
+Rp = return of portfolio
+Rf = risk-free rate
+SD = standard deviation of the portfolio's downside
+
+
+# Treynor Ratio
+- measures how successful an investment is in providing compensation to investors for taking on investment risk
+- TR is reliant upon a portfolio's beta - ie, the sensitivity of the portfolio's returns to movements in the market - to judge risk
+
+- Formula for TR
+(Rp - Rf) / B
+
+Rp = return of portfolio
+Rf = risk-free rate
+B = Beta of the portfolio
+
+
+==> big idea:
+how much excess return am I getting on a portfolio or basket of holdings for the amount of risk I am taking on?
+basically, how much above a "risk-free" rate can I get?
+
+
+## Beta (excess volatility)
+- measures the amount of risk (Volatility) a stock, mutual fund or ETF has relative to a broader index
+- broader index like S&P 500 or Nifty 50 is assigned a beta of 1.0
+- evaluate based on relation to that 1.0 market rate
+
+# How to evaluate Beta?
+- Between 0 and 1.0: less volatile than the market - cash has Beta of 0
+- Equals 1.0: if a stock has beta of 1.0, it will move in the same direction as the index by the same amount
+- Greater than 1.0: volatility is greater than broader index
+- Negative: moves opposite direction of the index (example Gold ETF)
+
+
+## Alpha (excess returns)
+- goes hand in hand with Beta
+- refers to excess returns earned on an investment above the benchmark or index return
+- represent the value that a portfolio manager adds to or subtracts from a fund's return,
+beyond what you could get with a passive index fund
+
+- positive number means outperformed the broader index
+- negative number means underperformed the broader index
+- actual number is the percentage of over or under performance
+
+# Calculate Alpha
+- calculate the return of a stock or ETF and subtract the return of the associated index
+- make sure using same time periods
+- example:
+Stock A return is 4% and Index return was 10% => Alpha = -6% (-0.06)
+Stock B return is 15% and Index return was 10% => Alpha = 5% (0.05)
+
+
+## R-Squared
+- statistical measure that represents the %age of a portfolio or stock's movements that
+can be explained by or attributed to movements in a benchmark index
+- range from 0 to 100
+- value between 85-100 has a performance record that is closely correlated to the index
+- value less than 70 means does not perform like the index
+
+- Formula
+R-Squared = 1 - (Unexplained Variation / Total Variation)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
