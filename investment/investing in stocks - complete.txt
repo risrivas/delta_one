@@ -335,6 +335,116 @@ can be explained by or attributed to movements in a benchmark index
 R-Squared = 1 - (Unexplained Variation / Total Variation)
 
 
+## Risk Categories
+# Systematic Risk
+- associated with the broader market
+- something that is impacting many, including stocks you own
+- example: war, Covid
+
+# Un-systematic Risk
+- associated with a particular company, industry or sector
+- example:
+Saudi Arabia cuts oil production. That would impact the oil industry and oil stocks like
+Exxon-Mobil (XOM) more than the broader market
+
+
+## Looking up risk
+- mainly look Beta
+- can be got for free or may be difficult to get if paid sites
+
+- example:
+Xcel Energy (XEL): Utility
+Kraft Heinz (KHC): Food Manufacturer
+Amazon (AMZN): eCommerce / Web Services
+Tesla (TSLA): Electric Vehicles
+
+- check at yahoo finance, finviz, investing.com
+
+- just go to yahoo finance and search for tickers
+example:
+https://finance.yahoo.com/quote/XEL?p=XEL&.tsrc=fin-srch
+
+- similar for investing.com
+https://www.investing.com/equities/xcel-energy
+
+- similar for finviz
+https://finviz.com/quote.ashx?t=XEL
+
+
+## different examples
+
+# example 1 - different categories
+- Vanguard Wellesley Income Fund (VWINX)
+40% stocks / 60% bonds
+
+https://finance.yahoo.com/quote/VWINX/risk?p=VWINX
+
+- Fidelity Growth Company (FDGRX)
+98% stocks - 35% of that in tech
+
+
+# example 2 - same category - Large Cap Growth
+- Fidelity Growth Company (FDGRX)
+- T Rowe Price Growth Stock (PRUFX)
+- Fidelity Contrafund (FCNTX)
+
+- Mutual Fund comparison site:
+https://www.marketwatch.com/tools/mutual-fund/compare
+
+# example 3 - international
+compare: VOO ACWI INDY
+
+- To buy Mutual Funds in India, good site:
+https://utimf.com/
+
+
+
+#####################################
+# What to Buy: Stocks / Funds / ETFs
+#####################################
+
+## Stocks
+- more control
+  can sell any time
+  tax efficient - holding a stock dont require taxes to be paid
+- more targeted
+- less diversified - can have only 20-30 stocks portfolio as compared to Funds or ETFs
+- more hands on
+  research
+  tracking
+
+# Creating a portfolio of stocks
+- 20-30 for diversification
+- To be more diversified, need to look at a variety of company
+  Industry
+  Size
+  Style - Growth / Value / Income
+
+# Strategy: Mutual Fund or ETF Core
+- 80% in core mutual fund(s)
+  Total Stock Market
+  S&P 500
+  International
+- Add individual stocks around core
+  Pull out extra return
+  Varied holdings
+  Tax reasons
+  Challenging and fun
+
+
+
+## Understanding Stock Mutual Funds
+
+
+
+
+
+
+
+
+
+
+
 
 
 
