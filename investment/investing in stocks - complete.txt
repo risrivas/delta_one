@@ -432,9 +432,38 @@ https://utimf.com/
   Challenging and fun
 
 
-
 ## Understanding Stock Mutual Funds
+- Pool of investors - sharing risk and reward
+- Diversified holdings - sometime asset classes
+- Professional management - Active vs Index
+- Liquidity - easy to buy and sell
 
+
+## Active vs Index Funds
+- Index Fund means you are trying to match the market that the index follows
+- example: Vanguard S&P 500 Index Fund
+
+# Index Fund Advantages
+- lower cost - fund manager caretaker-less turnover costs
+- potential for more diversification
+
+# Index Fund Disadvantages
+- no fund manager with vested interest
+- index down as a whole
+- can be less diversified
+- can be heavy weighted in a few positions, example: S&P 500
+
+
+## Exchange Traded Funds (ETF)
+- similar yet different than mutual funds
+- hold basket of underlying assets (ex stocks, bonds, etc) - diversification
+- typically track an index
+- low expense ratio
+- trade on market like a stock
+- price changes during the day
+- liquidity like a stock (no NAV)
+- pay commission to a broker like a stock
+- can buy 1 share - no minimum like mutual fund
 
 
 
