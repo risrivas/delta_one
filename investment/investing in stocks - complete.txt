@@ -466,6 +466,55 @@ https://utimf.com/
 - can buy 1 share - no minimum like mutual fund
 
 
+## Mutual Fund box
+3X3 matrix based on value, blend, growth in x-axis and large, mid, small cap on y-axis
+
+
+## Mutual Fund expenses
+- Sales charges (load) - front end/back end 3% or more
+- Expense Ratio (average 1%) - operating expenses, 12b-1 marketing (0.25%)
+- Misc charges (not in expense ratio) - custodial fees ($10), hidden fees
+- Redemption fee (1%) - fee if sell before certain time frame, discourage market timers
+
+# compare 2 funds
+- check expense ratio
+fees used to manage the fund
+- Formula for the Expense Ratio
+ER = Total Fund Costs / Total Fund Assets
+
+
+################################################
+# Stock Market Investing and Trading Strategies
+################################################
+
+## Two investing extremes = "Buy and Hold" VS "Active Trading"
+- how long own the stock?
+- example:
+buy and hold own stock for 20 years
+active trader may own stock for 20 hours or less
+
+# Buy and Hold
+- Advantages
+easier to manage
+reduced transaction fees
+better tax efficiency
+trying to time the market is hard
+
+- Disadvantages
+missed opportunities
+reluctance to sell poor performers
+
+# Active Trading
+- Advantages
+take advantage of new opportunites
+sell those losers
+re-allocate faster in volatile markets
+
+- Disadvantages
+more time devoted to investing
+increased transaction fees/taxes
+investing rewards patience with compounding
+typically underperforms over long-term
 
 
 
