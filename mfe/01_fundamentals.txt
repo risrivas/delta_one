@@ -75,3 +75,30 @@ losing money on an investment
 #################
 # Interest Rates
 #################
+- interest rates are measures of the price charged in the economy to borrow money
+- the charge levied to borrow money is called interest
+- principal is the amount of money borrowed in a loan
+- interest rate is the fraction of the principal of a loan that will be charged as interest per unit time
+
+- thus there is a time unit implicit in an interest rate
+
+- an annual interest rate is an interest rate for which the implicit time unit is 1 year
+- quoted interest rates are usually annual interest rates
+
+# formula:
+Principal = X, annual interest rate = r
+
+r = fraction of X charged per year
+total 1 year interest = rX
+
+total debt after 1 year = Principal + Interest
+= X + rX
+= X*(1+r)
+
+# example:
+P = 5000
+r = 7%
+Debt = 5000 * (1 + 0.07)
+= 5000 * 1.07
+= 5350
+
