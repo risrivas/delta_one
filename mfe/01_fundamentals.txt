@@ -102,3 +102,61 @@ Debt = 5000 * (1 + 0.07)
 = 5000 * 1.07
 = 5350
 
+
+##########################################
+# Interest Rates: General Considerations
+##########################################
+- like any other price, interest rates are determined by market activity
+- interest rates are the prices negotiated between the borrowers and lenders of money
+
+- the market of borrowers and lenders is a diverse collection of markets which are usually viewed as divided into 2 classes:
+Money Market: short term loans, primarily with loan terms up to about a year
+Bond Market: debt with longer terms than a year
+
+- interest rates are prices negotiated on these markets
+- but interest rates are also heavily influenced by actions of governments and central banks
+
+
+## Term structure of interest rates
+- Interest rates have term structure: they are functions of the loan term (the duration of the time the loan is held)
+- you will be charged a different interest rate if you borrow money for 5 years than if you borrow money for 3 months
+
+- we use the notation r(t) to denote the interest rate for borrowing money for a loan term of t
+for instance,
+     r(t) = annual interest rate for a 2 year loan
+let r(2) is the interest rate charged per year to borrow money for 2 years
+
+- at times, r(t, T) notation may be used to denote the rate maturing at date T observed at time t
+this implies the term to maturity is T - t
+
+
+## Forces that shape interest rates
+- the borrower wants to borrow money as cheaply as possible, so will take the lowest interest rate available
+- the lender wants to earn the highest possible rate, but the primary cost to the lender is the risk of loss on the investment
+- the universal view is that investor's require more compensation if they take on a riskier investment
+
+- thus the basic risk-rate relationship is simple: riskier investments require a higher interest rate
+- longer loan term imply higher risks
+
+- a model that fits really well is to regard central banks as setting a base level for interest rates
+- other interest rate levels are then realized as adjustments (spreads) to the central bank determined base rate, based on their risk characteristics
+
+# Risk free interest rate
+- what should be the interest rate if there is no risk?
+This idea of a risk free rate is a somewhat fancy idea (there is really no such thing as a riskless investment)
+but it is a core concept of derivative pricing, used universally in the subject.
+
+- it is reasonable that such a minimal rate of return, even in the absence of risk, could exist in markets in a theoretical sense at least
+- a new real-world interest rate, which is now slated to be of major market importance, may come very close to being an actual risk free interest rate:
+the Secured Overnight Financing Rate (SOFR)
+
+
+
+
+
+
+
+
+
+
+
