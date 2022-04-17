@@ -151,6 +151,37 @@ but it is a core concept of derivative pricing, used universally in the subject.
 the Secured Overnight Financing Rate (SOFR)
 
 
+###################################
+# Interest Rates and Future Values
+###################################
+- from an investor's point of view, if we invest X at an annual interest rate r, then after 1 year,
+our investment is worth = (1 + r) * X
+- this formula is only correct if the interest rate is annually compounded
+- for 2 years = (1 + 2*r) * X
+- After 2 years, our investment grew to = (1 + 2*r)^2 * X
+
+# Future Values
+If we invest a sum of money at some fixed interest rate for some term the final value of this investment,
+assuming all returns are reinvested at the same interest rate, is the future value of the initial investment.
+
+Let r(t) be the annuallu compounded interest rate for a loan term of t years
+Let P0 be the initial investment
+Then the future value of P0, at time t is:
+P(t) = (1 + r(t))^t * P0
+
+The key here is rate of interest should be in t
+
+# Example:
+invest 10K at an annually compounded interest rate of 7%
+what is the future value in 10 years?
+
+P(10) = (1 + r)^10 * 10K
+= 1.07 ^ 10 * 10K
+
+
+
+
+
 
 
 
