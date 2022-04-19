@@ -179,6 +179,43 @@ P(10) = (1 + r)^10 * 10K
 = 1.07 ^ 10 * 10K
 
 
+##########################
+# Compounding Conventions
+##########################
+- Periodic Compounding
+Interest is said to be compounded with frequency m if interest is reinvested with the principal m times per year
+Once interest is added to the principal, future interest charges are levied on the interest accrued so far as well as the initial principal
+
+- notation:
+rm(t) is still an annual interest rate, in each (m times per year) compounded period, the earned interest = rm(t)/m * X
+
+- the value of the investment after 1 period = X * (1 + rm(t)/m)
+- in the second perios, earned interest = rm(t)/m * X * (1 + rm(t)/m)
+= X * (1 + rm(t)/m)^2
+
+- the future value of an investment X in t years:
+P(t) = X * (1 + rm(t)/m)^mt
+
+annual compounding => m=1
+semiannual compounding => m=2
+monthly compounding => m=12
+
+- example:
+Calculate the future value in 5 years of a 15K investment
+semi annually rate = 6%
+monthly rate = 5.5%
+
+P(5) = 15K * (1 + 0.06/2)^2*5
+= 15K * 1.03^10
+
+P(5) = 15K * (1 + 0.055/12)^12*5
+
+
+
+##############################
+# Investment Return Measures
+##############################
+
 
 
 
