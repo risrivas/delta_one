@@ -190,7 +190,7 @@ Once interest is added to the principal, future interest charges are levied on t
 rm(t) is still an annual interest rate, in each (m times per year) compounded period, the earned interest = rm(t)/m * X
 
 - the value of the investment after 1 period = X * (1 + rm(t)/m)
-- in the second perios, earned interest = rm(t)/m * X * (1 + rm(t)/m)
+- in the second period, earned interest = rm(t)/m * X * (1 + rm(t)/m)
 = X * (1 + rm(t)/m)^2
 
 - the future value of an investment X in t years:
@@ -215,6 +215,33 @@ P(5) = 15K * (1 + 0.055/12)^12*5
 ##############################
 # Investment Return Measures
 ##############################
+- Let V(t) be the value of some investment or asset at time t
+- return on the investment from time t to t + T is the Gross return = V(t + T) / V(t)
+- Net return = (V(t + T) - V(t)) / V(t)
+- Net return = Gross return - 1
+
+- example:
+invest 18K, annual compounded rate = 8% for 1 year
+what are the gross and net returns
+
+Ans: value of investment after 1 year
+= X * (1 + rt)^t
+= 18K * (1 + 0.08)
+= 19,440
+
+Gross return = 19,400 / 18K = 1.08
+Net return = 19,400 - 18K / 18K = 0.08
+
+- calculate for 8% monthly compounded
+m = 12
+
+X * (1+r/m) ^ mt
+= 18K * (1+0.08/12) ^ 12*1
+= 19,494
+
+Gross return = 19,494/18K = 1.083
+Net return = 0.083
+
 
 
 
