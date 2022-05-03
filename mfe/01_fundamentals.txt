@@ -243,6 +243,41 @@ Gross return = 19,494/18K = 1.083
 Net return = 0.083
 
 
+############################
+# Interest Rate Conversions
+############################
+- the gross return of an investment at a periodically compounded interest rate equals the future value of an initial investment of $1
+- Let P(t) = future value for investment X in t years
+Gross return = P(t) / X
+= ((1 + rm(t)/m)^mt * X) / X
+= (1 + rm(t)/m)^mt
+
+- Interest rates are considered equivalent if they lead to the same total return
+- To calculate equivalent interest rates, we can equate gross or net returns, which is the same as equating the future value of $1
+- To express rm(t) in terms of rk(t), equate:
+(1 + rm(t)/m)^mt = (1 + rk(t)/k)^kt
+
+Solving for rm(t):
+rm(t) = m * (1 + rk(t)/k)^(k/m) - m
+
+- Example:
+if the annually compunded interest rate is 5% - what is the corresponding semiannually compounded interest rate?
+Let r(1) = annual = 5%
+r2(1) = semiannually
+
+equating the 1 year future value of a $1 investment with 2 interest rates:
+(1 + r(1)) = (1 + r2(1)/2)^2
+1.05 = (1 + r2(1)/2)^2
+
+solving for r2(1) = 0.0494 = 4.94%
+
+
+#########################
+# Continuous Compounding
+#########################
+
+
+
 
 
 
