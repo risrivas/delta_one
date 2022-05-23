@@ -1,0 +1,37 @@
+################
+# Introduction
+################
+- easiest way for a layman who doesn't have knowledge or time about stock market => should invest every month 15% of salary in index funds
+- fundamental: a successful company goes public -> earnings rise -> share price follows along => best for long term investment (3 years to 15 years)
+- exit (sell) the stock with atleast 10% profit OR if its very likely the price will go down - especially on quarterly reports
+
+- example - during dot com bubble in 1999-2000, many startup dot com companies had huge stock rise quickly
+- P/E ratio - there is no earnings here - only the stock price
+- if 1 company stock sells at $30, and other company at $10 => it does NOT mean that first company is better
+- only thing to follow is Earnings, not the current stock price
+
+- although there is no earnings for dot com, lets calculate its Market Cap, say its $10 billion (100 million float and $100 price)
+- to become a 10 bagger for dot com - its market cap should become $100 billion from $10 billion
+- this is only possible if price rises from $100 to $1000
+OR earnings increase by 40 times
+OR dot com should earn $2.5B a year
+
+- never invest in any company without doing study on
+company's earnings
+financial condition
+competitive position
+plans for expansion
+
+- in general, 6 out of 10 stocks investment should give positive returns
+
+- as stock price rises, the dividend yield naturally falls
+ex: $50 stock pays $5 dividend = dividend yield 10%
+if price moves up to $100 = dividend yield 5%
+
+- companies are not giving dividends as much like before and use the profit for new venture or buy back own shares
+- reducing the supply of shares increases earnings per share
+
+
+
+
+
